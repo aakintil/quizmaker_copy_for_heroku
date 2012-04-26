@@ -22,6 +22,8 @@ gem 'acts_as_list'
 gem 'gon'
 gem 'prawn'
 gem 'populator3', '0.2.7'
+gem 'execjs'
+gem 'therubyracer', :platforms => :ruby
 
 # Gems used only for assets and not required
 # in production environments by default.
