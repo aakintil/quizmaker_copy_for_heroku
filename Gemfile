@@ -2,7 +2,8 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.1.3'
 gem 'activesupport', '3.1.3'
-gem 'sqlite3-ruby', :require => 'sqlite3'
+# gem 'sqlite3-ruby', :require => 'sqlite3'
+gem 'pg'
 gem 'devise', '1.3.4'
 gem 'cancan', '1.6.5'
 gem 'kaminari', '0.12.4'
@@ -72,6 +73,3 @@ group :test do
 	gem 'simplecov', '0.4.2'
 end
 
-group :production do
-  gem 'pg'
-end
