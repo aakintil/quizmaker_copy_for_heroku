@@ -27,6 +27,7 @@ gem 'execjs'
 gem 'therubyracer', :platforms => :ruby
 gem 'thin'
 gem 'taps'
+	gem 'faker', '0.9.5'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -58,7 +59,7 @@ group :development do
 	gem 'annotate', '2.4.0'
 	# for rake db:populate
   # gem 'populator3', '0.2.7'
-	gem 'faker', '0.9.5'
+  # gem 'faker', '0.9.5'
 end
 
 group :test do
