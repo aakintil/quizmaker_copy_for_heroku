@@ -1,0 +1,48 @@
+<% title "Choose a new password" %>
+
+<br/><br/>
+
+<div class="row">
+	<div class="span12">
+		<%= form_for @user, :url => password_reset_path(params[:id]) do |f| %>
+		  <% if @user.errors.any? %>
+		    <div class="error_messages">
+		      <h2>Form is invalid</h2>
+		      <ul>
+		        <% for message in @user.errors.full_messages %>
+		          <li><%= message %></li>
+		        <% end %>
+		      </ul>
+		    </div>
+		  <% end %>
+		
+			<div class="row">
+				<div class="span3">
+					<label class="new-user-label pull-right">New Password:</label>
+				</div>
+				<div class="span3">
+					<%= f.password_field :password, :class => "span3 tall sign-up-field", :placeholder => '****' %>
+					<span class="placeholder"></span>
+				</div>
+			</div>
+			<br/>
+			<div class="row">
+				<div class="span3">
+					<label class="new-user-label pull-right">Confirm New Password:</label>
+				</div>
+				<div class="span3">
+					<%= f.password_field :password_confirmation, :class => "span3 tall sign-up-field", :placeholder => '****' %>
+					<span class="placeholder"></span>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="row">
+					<div class="span2 offset10">
+						<%= f.submit "Update Password", :class => "btn btn-primary large span2" %>
+					</div>
+				</div>
+			</div>
+		<% end %>
+	</div>
+</div>

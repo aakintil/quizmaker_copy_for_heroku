@@ -1,0 +1,12 @@
+<% title "Question Category" %>
+
+<p>
+  <strong>Name:</strong>
+  <%= @question_category.name %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_question_category_path(@question_category) %> |
+  <%= link_to "Destroy", @question_category, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", question_categories_path %>
+</p>

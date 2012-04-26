@@ -1,0 +1,16 @@
+<% title "Question Type" %>
+
+<p>
+  <strong>Name:</strong>
+  <%= @question_type.name %>
+</p>
+<p>
+  <strong>Question Category:</strong>
+  <%= @question_type.question_category_id %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_question_type_path(@question_type) %> |
+  <%= link_to "Destroy", @question_type, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", question_types_path %>
+</p>

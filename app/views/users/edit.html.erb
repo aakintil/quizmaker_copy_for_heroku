@@ -1,0 +1,7 @@
+<% if current_user == @user %>
+	<% title "Update Your Profile" %>
+<% else %>
+	<% title "Update #{@user.name}'s Profile" %>
+<% end %>
+<br/><br/>
+<%= render 'form' %>

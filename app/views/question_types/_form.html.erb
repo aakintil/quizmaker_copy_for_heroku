@@ -1,0 +1,12 @@
+<%= form_for @question_type do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :question_category_id %><br />
+    <%= f.collection_select :question_category_id, QuestionCategory.all, :id, :name, :prompt => 'Select...' %>
+  </p>
+  <p><%= f.submit %></p>
+<% end %>

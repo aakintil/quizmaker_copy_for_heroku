@@ -1,0 +1,84 @@
+<%= form_for @user do |f| %>
+<%= f.error_messages %>
+
+<div class="row">
+	<div class="span3">
+		<label class="new-user-label pull-right">First Name:</label>
+	</div>
+	<div class="span3">
+		<%= f.text_field :first_name, :class => "span3 tall sign-up-field", :placeholder => 'First Name' %>
+		<span class="placeholder"></span>
+	</div>
+	<div class="span3">
+		<label class="new-user-label pull-right">Last Name:</label>
+	</div>
+	<div class="span3">
+		<%= f.text_field :last_name, :class => "span3 tall sign-up-field", :placeholder => 'Last Name' %>
+		<span class="placeholder"></span>
+	</div>
+</div>
+
+<br/>
+
+<div class="row">
+	<div class="span3">
+		<label class="new-user-label pull-right">Username:</label>
+	</div>
+	<div class="span3">
+		<%= f.text_field :username, :class => "span3 tall sign-up-field", :placeholder => 'Username' %>
+		<span class="placeholder"></span>
+	</div>
+	<div class="span3">
+		<label class="new-user-label pull-right">Email ID:</label>
+	</div>
+	<div class="span3">
+		<%= f.text_field :email, :class => "span3 tall sign-up-field", :placeholder => 'Email ID' %>
+		<span class="placeholder"></span>
+	</div>
+</div>
+
+<br/>
+
+<% if !(!current_user.nil? and current_user.is_admin? and current_user != @user and !@user.id.nil?) %>
+<div class="row">
+	<div class="span3">
+		<label class="new-user-label pull-right">Password:</label>
+	</div>
+	<div class="span3">
+		<%= f.password_field :password, :class => "span3 tall sign-up-field", :placeholder => 'Password' %>
+		<span class="placeholder"></span>
+	</div>
+	<div class="span3">
+		<label class="new-user-label pull-right">Confirm Password:</label>
+	</div>
+	<div class="span3">
+		<%= f.password_field :password_confirmation, :class => "span3 tall sign-up-field", :placeholder => 'Confirm Password' %>
+		<span class="placeholder"></span>
+	</div>
+</div>
+<% end %>
+
+<br/>
+
+<div class="row">
+	<div class="row">
+		
+		<% if !current_user.nil? and current_user.is_admin? and current_user != @user and @user.id.nil? %>
+			<div class="span2 offset10">
+				<%= f.submit "Create User", :class => "btn btn-primary large span2", :id => "user-submit-button", :type => "submit" %>
+			</div>
+		<% elsif User.exists?(@user) and !@user.id.nil? %>
+			<div class="span2 offset10">
+				<%= f.submit "Update User", :class => "btn btn-primary large span2", :id => "user-submit-button", :type => "submit" %>
+			</div>
+		<% else %>
+			<div class="span4 offset6">
+				<p class="pull-right"><a href="/login">Already have an account?</a></p>
+			</div>
+			<div class="span2">
+				<%= f.submit "Sign Up", :class => "btn btn-primary large span2", :id => "user-submit-button", :type => "submit" %>
+			</div>
+		<% end %>
+	</div>
+</div>
+<% end %>

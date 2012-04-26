@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<% if controller.controller_name == 'sessions' %>
+  		<title>Welcome to QuizMaster!</title>
+  	<% elsif controller.controller_name == 'events' %>
+  		<title>QuizMaster :: Quiz Events</title>
+  	<% else %>
+    	<title>QuizMaster :: <%= controller.controller_name.capitalize %></title>
+    <% end %>
+
+    <%= stylesheet_link_tag "application" %>
+		<%= javascript_include_tag "application", "quiz_sort.js.coffee" %>
+		<%#= javascript_include_tag 'test' %>
+    <%= csrf_meta_tag %>
+    <%= yield(:head) %>
+  </head>
+  <body>
+		<div class="wrapper">
+	
+		<%= render :partial => "partials/header" %>
+		
+		<div id="content">
+			<div class="container">
+
+			  <% flash.each do |name, msg| %>
+					<% if name == :notice %>
+						<!-- Successful alerts haha -->
+						<div class="alert alert-success fade in">
+							<a class="close" data-dismiss="alert">×</a>
+							<%= msg %>
+						</div>
+					<% elsif name == :warning %>
+						<!-- Error Alerts -->
+						<div class="alert alert-error fade in">
+							<a class="close" data-dismiss="alert">×</a>
+							<%= msg %>
+						</div>
+					<% elsif name == :alert %>
+						<!-- Error Alerts -->
+						<div class="alert alert-error fade in">
+							<a class="close" data-dismiss="alert">×</a>
+							<%= msg %>
+						</div>
+					<% else %>
+						<!-- Other alerts or alerts I don't know exist -->
+						<div class="alert fade in" data=<%= name %>>
+							<a class="close" data-dismiss="alert">×</a>
+							<%= msg %>
+						</div>
+					<% end %>
+			  <% end %>
+			
+			  <%= content_tag :h1, yield(:title) if show_title? %>
+			  <%= yield %>
+		
+			</div>
+		</div>
+		
+		<footer>
+			<div class="container">
+				<p>© 2012 <a href="mailto:quizmaker.team@gmail.com">QuizMaster Team</a></p>
+				<nav> 
+					<ul> 
+					  <li><a href="/about">About QuizMaster</a></li>
+					  <li><a href="/contact">Contact Us</a></li>
+					  <li><a href="/privacy">Privacy Policy</a></li>
+					</ul> 
+				</nav> 
+			</div> <!-- End of container -->
+		</footer>
+		
+		</div> <!-- End of wrapper -->
+  </body>
+
+
+<!-- Feedback Widget: quizmaker.uservoice.com -->
+<script type="text/javascript">
+  var uvOptions = {};
+  (function() {
+    var uv = document.createElement('script'); uv.type = 'text/javascript'; uv.async = true;
+    uv.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'widget.uservoice.com/2ZTQVDZq99UrdZwRUpLoyg.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(uv, s);
+  })();
+</script>
+
+</html>

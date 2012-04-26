@@ -1,0 +1,13 @@
+<% title "Edit Question" %>
+
+<%= render 'form' %>
+
+<div >
+	<p>
+	  <% if current_user.is_writer? %>
+	  <%= link_to "View Questions", write_path, :class=>'myButton2' %>
+	  <% elsif current_user.is_approver? %>
+	  <%= link_to "View Pending Questions", approve_path, :class=>'myButton2' %>
+	  <% end %>
+	</p>
+</div>

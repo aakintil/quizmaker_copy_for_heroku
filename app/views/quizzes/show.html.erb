@@ -1,0 +1,124 @@
+
+<!-- for some weird reason using the title tag outputs a true -->
+<h1><%= "Quiz for #{@quiz.event.title}" %></h1>
+
+<br/>
+<div class="row">
+<%= link_to 'Generate PDF', quiz_path(@quiz, format: "pdf"), :class => 'btn btn-large' %>
+</div>
+<!--
+<div class='quiz_overview'>
+<h3><u>Overview:</u></h3>
+
+<p>
+  <b>INT:</b>
+  <%# @quiz.interrogative %>,&nbsp;&nbsp;
+  <b>FTV:</b>
+  <%# @quiz.finish_the_verse %>,&nbsp;&nbsp;
+  <b>QT:</b>
+  <%# @quiz.quote %>,&nbsp;&nbsp;
+  <b>REF:</b>
+  <%# @quiz.reference %>,&nbsp;&nbsp;
+  <b>MA:</b>
+  <%# @quiz.multiple_answer %>,&nbsp;&nbsp;
+  <b>SIT:</b>
+  <%# @quiz.situation %>
+</p>
+
+<p>
+  <b>File:</b>
+  <%# @quiz.filename %>
+</p>
+
+<%# render :partial => 'partials/list_of_sections'%>
+
+</div>
+-->
+
+<script>
+	// $(function() {
+	// 	$( "#drag_drop" ).sortable();
+	// 	$( "#drag_drop" ).disableSelection();
+	// });
+	$(function() {
+		//  
+		// $( "#non_sortable" ).sortable({
+		// 			cancel: ".row question-box"
+		// 		});
+		// 
+		// 		$( "#non_sortable div" ).disableSelection();
+	    // $("#drag_drop").sortable({
+	    // 	        success: function(event, ui) {
+	    // 	            // so if > 10
+	    // 	            if ($("#pos").index() < 20) {
+	    // 	                //ui.sender: will cancel the change.
+	    // 	                //Useful in the 'receive' callback.
+	    // 					alert("success"); 
+	    // 	                // $(ui.sender).sortable('cancel');
+	    // 	            }
+	    // 	        }
+	    // 	    }).disableSelection();
+	    	});
+	</script>
+
+
+<div class="span12 questions">
+	<div id = "drag_drop" data-update-url="<%= sort_quizzes_url %>">
+	<% @quiz.quiz_questions.each do |quiz_question|%>
+		<%= content_tag_for :div, quiz_question do %>
+		<% if quiz_question.position < 21 %>
+			<div class = "ui-state-default">
+			<div class="row question-box">
+				<div class="span1">
+				<img class="handle" src="https://ssl.gstatic.com/ui/v1/icons/mail/grippy_dark.png">
+				<%= quiz_question.position %>
+				</div>
+				<div class="span1"><%= QuestionType::QUESTION_TYPES[quiz_question.question.question_type.name] %></div>
+				<div class="span8">
+					<!-- have to use to_s on the truncate for it to work -->
+					<div class="row question"><%= raw(truncate(quiz_question.question.text.to_s, :length => 100, :omission => (link_to "...(view)", quiz_question.question))) %></div>
+					<div class="row answer"><%= quiz_question.question.answer %></div>
+				</div>
+				<div class="span1">
+					<%= quiz_question.question.reference%>
+				</div>
+			</div> <!-- End of question box -->
+			</div>
+			<% end %>
+  		<% end %>
+	<% end %>
+	</div>
+	<!-- end of sortables -->
+	
+	
+	<!-- no sortable questions -->
+	<div id = "non_sortable">
+	<% @quiz.quiz_questions.each do |quiz_question|%>
+		<% if quiz_question.position > 20 %>
+		
+		<div class="row question-box">
+			<div class="span1">
+				<div id = "pos">
+			<%= quiz_question.position %>
+			</div>
+			</div>
+			<div class="span1"><%= QuestionType::QUESTION_TYPES[quiz_question.question.question_type.name] %></div>
+			<div class="span8">
+				<!-- have to use to_s on the truncate for it to work -->
+				<div class="row question"><%= raw(truncate(quiz_question.question.text.to_s, :length => 100, :omission => (link_to "...(view)", quiz_question.question))) %></div>
+				<div class="row answer"><%= quiz_question.question.answer %></div>
+			</div>
+			<div class="span1">
+				<%= quiz_question.question.reference%>
+			</div>
+		</div> <!-- End of question box -->
+		
+		<% end %>
+	<% end %>
+</div>
+</div>
+<br />
+
+<div class="row">
+<%= link_to '< Back', event_path(@quiz.event), :class => 'btn btn-large' %>
+</div>

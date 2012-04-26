@@ -1,0 +1,124 @@
+<div class="row">
+
+	<div class="span12">
+	<h3 class="welcome">Quiz Master<sup>&#8482;</sup> helps you write questions and build quizzes for your local Bible Quiz team, your district, and the world!</h3>
+	</div>
+</div> <!-- End of row -->
+
+<br/><br/>
+<div class="row">
+	
+	<!-- Left half -->
+	<div class="span5">
+		<br />
+		<%= image_tag("screenshot.png") %>
+	</div>
+	
+	<!-- Right half -->
+	<div class="span6" id="right-form">
+		<div id="log-in">
+			<%= render :partial => "partials/home-login-form" %>
+		</div> <!-- End of Log-in div -->
+		<div id="sign-up">
+			<%= render :partial => "partials/home-signup-form" %>
+		</div><!-- End of Sign-up div -->
+		<div id="reset-password">
+			<%= render :partial => "partials/home-reset-form" %>
+		</div>
+	</div>
+</div>
+
+<br/><br/>
+<div class="row">
+
+	<div class="span12">
+	<h3 class="welcome"><a href="/signup">Sign up</a> for an account today to get started with building quizzes!</h3>
+	</div>
+</div> <!-- End of row -->
+
+<!-- Sets focus automatically in the login form on document load -->
+<script>$(document).ready(function(){ $("#login").focus(); })</script>
+
+<!-- Show/Hide Login/Signup -->
+<%= javascript_include_tag "placeholder" %>
+<script>
+	$(function() {
+		var login_height = $("#log-in").height();
+		var signup_height = $("#sign-up").height();
+		var reset_height = $("reset-password").height();
+		
+		// $("#right-form").css("height", $(".visible").height());
+		
+		// Start by showing the log-in form
+		var path = window.location.pathname;
+		if( path == '/signup') {
+			show_signup();
+			// $("#log-in").attr('class', 'invisible');
+			// 			$("#sign-up").attr('class', 'visible');
+		}
+		else if( path == '/reset_password' ) {
+			show_reset();
+		}
+		else {
+			show_login();
+			// $("#log-in").attr('class', 'visible');
+			// $("#sign-up").css('display', 'none');
+		}
+		
+		$("p#show-signup").click(function() {
+			show_signup();
+		});
+		
+		$("p#show-login").click(function() {
+			show_login();
+		});
+		
+		$("p#show-reset").click(function() {
+			show_reset();
+		})
+		
+		function show_signup() {
+			// $("#log-in").attr('class', 'invisible');
+			// $("#log-in").hide();
+			$("#log-in").attr('class', 'invisible');
+			$("#log-in").hide();
+			
+			$("#reset-password").attr('class', 'invisible');
+			$("#reset-password").hide();
+			
+			// $("#log-in").fadeOut(60, function() {
+			// 	$("#log-in").attr('class', 'invisible');
+			// });
+			$("#sign-up").fadeIn(100, function() {
+				$("#sign-up").attr('class', 'visible');
+			});
+			// $("#right-form").animate({
+			// 	height: signup_height
+			// }, 500);			
+		}
+		
+		function show_login() {
+			$("#sign-up").attr('class', 'invisible');
+			$("#sign-up").hide();
+			
+			$("#reset-password").attr('class', 'invisible');
+			$("#reset-password").hide();
+			
+			$("#log-in").fadeIn(100, function() {
+				$("#log-in").attr('class', 'visible');
+			});
+		}
+		
+		function show_reset() {
+			$("#sign-up").attr('class', 'invisible');
+			$("#sign-up").hide();
+			
+			$("#log-in").attr('class', 'invisible');
+			$("#log-in").hide();
+			
+			$("#reset-password").fadeIn(100, function() {
+				$("#reset-password").attr('class', 'visible');
+			})
+		}
+	});
+</script>

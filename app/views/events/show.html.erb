@@ -1,0 +1,42 @@
+<h1><%= @event.title %><small>  by <%= @event.user.name %></h1>
+
+<br/>
+
+<div class="row">
+</div>
+
+<!--<p>
+  <b>File:</b> -->
+  <%# @event.filename %>
+<!--</p>-->
+
+<div class="row">
+<div id="quizzes" class="span7">
+	
+	<div class="row quizzes-header">
+		<div class="span6 q-number">Quizzes:</div>
+		<!-- <div class="span2 q-number"><a href="#" class="sort-key">Quiz Number</a></div>
+		<div class="span4 q-filename"><a href="#" class="sort-key">Name</a></div> -->
+	</div>
+	
+	<% quizNumber = 1 %>
+	<% for quiz in @quizzes %>
+			<div class="row quiz-box">
+			<a href=<%= quiz_path(quiz) %>>
+				
+				<div class="span2 q-number"><%= "Quiz #{quizNumber}" %></div>
+				<div class="span4 q-filename"><%= quiz.filename %></div>
+
+			</a>
+			</div> <!-- End of quiz-box -->
+	<% quizNumber += 1 %>
+  <% end %>
+		
+</div> <!-- End of quizzes -->
+<div class="span4 box">
+	Number of Quizzes: <%= @event.num_quizzes %>
+</div>
+
+</div>
+
+<%= link_to '< Back', events_path, :class => 'btn btn-large font-regular' %>

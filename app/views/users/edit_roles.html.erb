@@ -1,0 +1,12 @@
+The following 
+<% if @modifiedUsers.size > 1 %>
+	users' roles have
+<% else %>
+	user's role has
+<% end %> been updated:
+
+<ul>
+	<% for user in @modifiedUsers %>
+		<li><%= user.name %>, <%= user.username%></li> 
+	<% end %>
+</ul>

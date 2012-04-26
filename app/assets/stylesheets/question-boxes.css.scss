@@ -1,0 +1,35 @@
+@import "color_palette";
+@import "font_palette";
+@import "mixins";
+
+div.question-box {
+  @include rounded-corners;
+  @include box-shadow;
+  margin:10px 0;
+  padding:10px 10px;
+}
+
+div.questions {
+  margin-bottom:30px;
+}
+
+input[type="checkbox"] {
+  width:2em;
+  height:2em;
+}
+
+.question, .answer {
+  font-family: "Adobe Garamond Pro";
+  font-size:1.1em;
+}
+.answer { padding-top:4px; }
+
+span#show-new-question {
+  font-size:1.4em;
+  font-weight:$bold;
+}
+.btn-square {
+  height:20px;
+  width:20px;
+  padding:10px;
+}

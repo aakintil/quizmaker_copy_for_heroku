@@ -1,0 +1,128 @@
+<div class="row">
+<div class="well span12 centered">
+	<h2>Write a New Question</h2>
+	<!-- <span class="btn btn-square pull-right" id="show-new-question">+</span> -->
+	<br/>
+	
+	<%= form_for(@question) do |f| %>
+	<%= f.error_messages %>
+
+		<!-- Question -->
+		<div class="row">
+			<div class="span12">
+				<%= f.text_area :text, :rows => '2', :placeholder => 'Type question here', :class => "wide span12" %>
+			</div>
+		</div>
+		
+		<!-- Answer -->
+		<div class="row">
+			<div class="span12">
+				<%= f.text_area :answer, :rows => '2', :placeholder => 'Type answer here', :class => "wide span12" %>
+			</div>
+		</div>
+		
+		<br/>
+		
+		<div class="row">
+			
+			<!-- Type -->
+			<div class="span4">
+				<%= f.collection_select(:question_type_id, QuestionType.all, :id, :abbr_and_name, {:prompt => 'Select Type'}, {:class => "span4"}) %>
+			</div>
+			
+			<!-- Book -->
+			<div class="span2">
+				<%= f.select :book, Question::BOOKS.keys, {:prompt => 'Book'}, {:class => "span2"} %>
+			</div>
+			
+			<!-- Chapter : Verse -->
+			<div class="span2">
+				<%= f.text_field :chapter, :size => "1", :placeholder => 'Ch', :class => "span1 pull-right"%> : <%= f.text_field :verse, :size => '1', :placeholder => 'V', :class => "span1" %>
+			</div>
+			
+			<div class="span2">
+				<%= f.select :keyword, Question::KEYWORD.values, {:prompt => 'Keyword..'}, {:class => "span2"} %>
+			</div>
+			
+			<!-- Submit Button -->
+			<div class="span2">
+				<%= f.submit 'Submit', :class => "btn btn-primary span2", :id => "submit-new-question" %>
+			</div>
+			
+		</div>
+				
+	<% end %>
+	
+</div>
+</div>
+
+<br/>
+
+<h2 id="#questions">Questions You Have Written</h2>
+<br/>
+<!-- Links to toggle question filters -->
+<div id="filterbar span8" >
+	<!-- Links to toggle question filters -->
+	
+	<div class="btn-toolbar font-regular">
+		
+		<!-- <div class="btn-group">
+			<a class="btn" href="javascript:filterBy('recent_questions');">Recent</a>
+		</div> -->
+		
+		<!-- <div class="btn-group">
+			<a class="btn" href="javascript:filterBy('approved_questions');">Approved</a>
+		</div> -->
+		
+		<div class="btn-group">
+			<a class="btn" href="javascript:filterBy('ALL');">All</a>
+		</div>
+		
+		<div class="btn-group">
+			<a class="btn filter" href="javascript:filterBy('INT');">Interrogative</a>
+			<a class="btn filter" href="javascript:filterBy('FTV');">Finish The Verse</a>
+			<a class="btn filter" href="javascript:filterBy('QT');">Quote</a>
+			<a class="btn filter" href="javascript:filterBy('REF');">Reference</a>
+			<a class="btn filter" href="javascript:filterBy('MA');">Multiple Answer</a>
+		</div>
+	</div> <!-- End of btn-toolbar -->
+</div>	<!-- End of filterbar -->
+<br/>
+
+<div class="span12 questions">
+	
+	<% for question in @questions %>
+	
+		<%# if question.is_editable? %>
+			<!-- <div class="row question-box">
+				<div class="top-row">
+					<span class="btn pull-right select-button">Select</span>
+					
+					<%#= best_in_place question, :question_type_id, :type => :select, :collection => question.question_types_list %>
+					
+				</div> -->
+		<%# else %>
+			<div class="row question-box  <%= QuestionCategory::CATEGORY_ABBREVIATIONS[question.question_category.name] %>">
+		<%# end %>
+				<div class="span1"><input class="select" type="checkbox"></div>
+				<div class="span1"><%= best_in_place question, :question_type_id, :type => :select, :collection => question.question_types_list %></div>
+				<div class="span8">
+					<div class="row question"><%= best_in_place question, :text %></div>
+					<div class="row answer"><%= best_in_place question, :answer %></div>
+				</div>
+				<div class="span1">
+					<%= best_in_place question, :book, :type => :select, :collection => Question::BOOK_LIST %> 
+					<%= best_in_place question, :chapter %>:<%= best_in_place question, :verse %>
+				</div>
+			</div> <!-- End of question box -->
+  <% end %>
+	
+	
+</div>
+
+<!-- The user has no questions -->
+	<!-- <p class='empty_message'>
+		Write some questions above!
+	</p> -->
+
+<%= javascript_include_tag "questions_selection" %>

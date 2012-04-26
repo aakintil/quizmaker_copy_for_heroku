@@ -1,0 +1,39 @@
+<%= form_for(@quiz) do |f| %>
+  <%= f.error_messages %>
+  
+  <%# render :partial => 'partials/section_checkboxes'%>
+
+  <div class="field">
+    <%= f.label :interrogative, 'INT' %><br />
+    <%= f.select :interrogative, Quiz::INT_RANGE %>
+  </div>
+  <div class="field">
+    <%= f.label :finish_the_verse, 'FTV' %><br />
+    <%= f.select :finish_the_verse, Quiz::FTV_RANGE %>
+  </div>
+  <div class="field">
+    <%= f.label :quote, 'QT' %><br />
+    <%= f.select :quote, Quiz::QT_RANGE %>
+  </div>
+  <div class="field">
+    <%= f.label :reference, 'REF' %><br />
+    <%= f.select :reference, Quiz::REF_RANGE %>
+  </div>
+  <div class="field">
+    <%= f.label :multiple_answer, 'MA' %><br />
+    <%= f.select :multiple_answer, Quiz::MA_RANGE %>
+  </div>
+  <div class="field">
+    <%= f.label :situation, 'SIT' %><br />
+    <%= f.select :situation, Quiz::SIT_RANGE %>
+  </div>
+  
+  <div class="field">
+    <%= f.label :event_id %><br />
+    <%= f.collection_select :event_id, Event.all, :id, :title, :prompt => "Select..." %>
+  </div>
+  
+  <div class="actions">
+    <%= f.submit :class=>'myButton2' %>
+  </div>
+<% end %>

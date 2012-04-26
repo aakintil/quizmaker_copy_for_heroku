@@ -1,0 +1,80 @@
+<div class="row">
+	<div class="span6"><h1>All Users</h1></div>
+	<div class="span6"><%= link_to '+ New User', new_user_path, :class => 'btn btn-primary pull-right', :id => 'new-user-button' %></div>
+</div>
+
+<br/>
+
+<%= form_tag edit_roles_path do %>
+<div class="row">
+<div id="users" class="span12">
+
+	<div class="row users-header">
+		<div class="span2 u-username"><a href="#">Username</a></div>
+		<div class="span4 u-name"><a href="#">Name</a></div>
+		<div class="span5 u-roles"><a href="#">Roles</a></div>
+	</div>
+	
+	<% for user in @users %>
+		<div class="row user-box">
+		<a href=<%= edit_user_path(user) %>>
+		
+			<div class="span2 u-username"><%= user.username %></div>
+			<div class="span4 u-name"><%= user.name %></div>
+		</a>
+			<div class="span5 u-roles">
+				<div class="btn-group">
+				<% for role in @roles %> <!-- user.roles is an array of role name strings -->
+					<% unless role.is_coach? %>
+						<!-- <#%= check_box_tag( "userRoles[#{user.id}][]", role.name, (true if  user.role?(role.name))) %><#%= role.name %><br/> -->
+						<input type="hidden" id="userRoles_<%= user.id %>_<%= role.name %>" name="userRoles[<%= user.id %>][]" value="<%= role.name if user.role?(role.name) %>">
+
+							<% if  user.role?(role.name) %>
+								<button class="btn role-button set" id="<%= user.id %>_<%= role.name %>"><%= role.name %></button>
+							<% else %>
+								<button class="btn role-button" id="<%= user.id %>_<%= role.name %>"><%= role.name %></button>
+							<% end %>
+							
+					<% end %>
+				<% end %>
+				</div>
+			</div>
+		</div> <!-- End of event box -->
+  <% end %>
+		
+</div> <!-- End of events -->
+</div>
+
+<%= submit_tag "Modify Selected Users Roles", :class => "btn btn-large" %>
+<% end %>
+
+<!-- <#%= will_paginate @questions %> -->
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" charset="utf-8">
+
+$(function() {
+	$("button.role-button").click(function() {
+		var buttonID = $(this).attr('id');
+		var idVals = buttonID.split(/_/);
+
+		var id = idVals[0];
+		var role = idVals[1];
+		
+		//alert("ID = " + id + "; Role Name = " + role);
+		var inputID = "#userRoles_" + id + "_" + role;
+		// console.log($('#' + inputID));
+		
+		if($(this).hasClass("set")) {
+			$(this).removeClass("set");
+			$(inputID).attr('value', '');
+		}
+		else {
+			$(this).addClass("set");
+			$(inputID).attr('value', role);
+		}
+	});
+});
+
+
+</script>

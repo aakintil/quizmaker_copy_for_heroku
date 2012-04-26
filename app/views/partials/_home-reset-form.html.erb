@@ -1,0 +1,68 @@
+<div class="row">
+	<div class="span4 offset2">
+		<h2>Reset Password</h2>
+	</div>
+</div>
+
+<br/>
+
+<%= form_tag password_resets_path, :method => :post, :class => "reset" do %>
+	
+	<div class="row">
+		<div class="span3 offset2">
+			<%= text_field_tag :email, params[:email], :class => "span3 tall", :placeholder => 'Email' %>
+			<span class="placeholder"></span>
+		</div>
+	</div>
+
+	<br/>
+	
+	<div class="row">
+		<div class="row">
+		<div class="span3 offset2">
+			<%= content_tag(:button, "Reset Password", :class => "btn btn-primary btn-large span3", :id => "reset-password", :type => "submit", :disabled => "false")%>
+		</div>
+		</div>
+	</div>
+	
+	<br/><br/>
+	
+	<div class="row">
+		<div class="span3 offset2">
+			<p id="show-signup"><a href="#">Don't have an account?</a></p>
+		</div>
+	</div>
+	
+	<br/>
+	
+	<div class="row">
+		<div class="span3 offset2">
+			<p id="show-login"><a href="#">Already have an account?</a></p>
+		</div>
+	</div>
+
+	<br/>
+	
+<% end %>
+
+<!-- Script to enable/disable submit button -->
+<script type="text/javascript" charset="utf-8">
+$(function() {
+    $('form.reset').find('input').keyup(function() {
+				
+        var empty = false;
+        $('form.reset').find('input').each(function() {
+            if ($(this).val() == '') {
+								alert("hey");
+                empty = true;
+            }
+        });
+
+        if (empty) {
+            $('button#reset-password').attr('disabled', true);
+        } else {
+            $('button#reset-password').attr('disabled', false);
+        }
+    });
+});
+</script>

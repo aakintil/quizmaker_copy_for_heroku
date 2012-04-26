@@ -1,0 +1,36 @@
+<%= form_for(@event) do |f| %>
+  <% if @event.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@event.errors.count, "error") %> prohibited this event from being saved:</h2>
+
+      <ul>
+      <% @event.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+  
+  <!-- event title -->
+	<div class="row">
+		<div class="span8">
+			<%= f.text_field :title, :class => 'span8 tall', :placeholder => "Event Title" %>
+			<span class="placeholder"></span>
+		</div>
+		<div class="span3">
+			<%= f.number_field :num_quizzes, :min => 1, :max => 30, :class => 'span3 tall', :placeholder => 'Number of Quizzes' %>
+			<span class="placeholder"></span>
+		</div>
+	</div>  
+  
+  <!-- ******Nested quiz form******** -->
+  
+  <!-- ************************************* -->
+  <br/>
+  <div class="row">
+		<div class="span12">
+    	<%= f.submit 'Create Event', :class=>'btn btn-primary' %>
+		</div>
+  </div>
+<% end %>
+<br /><br />

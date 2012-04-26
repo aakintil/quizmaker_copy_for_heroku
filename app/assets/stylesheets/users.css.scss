@@ -1,0 +1,58 @@
+@import "color_palette";
+@import "font_palette";
+@import "mixins";
+
+div#users {
+  font-size:1.5em;
+  margin-bottom:30px;
+}
+
+div.user-box {
+  @include rounded-corners;
+  @include box-shadow;
+  margin:10px 0;
+  padding:0;
+}
+div.user-box a {
+  color:$normal-text-color;
+}
+div.user-box:hover {
+  position:relative;
+  top:-1px;
+  left:-1px;
+  @include raised-box-shadow;
+//  @include blue-glow-border;
+}
+div.user-box:active { @include depressed-box-shadow; }
+
+div.users-header {
+  @include square-corners;
+  margin:10px 0;
+  padding:0;
+}
+
+// Padding:top right bottom left
+
+div.u-username, div.u-name, div.u-roles { padding:10px 14px 10px 20px; margin:0; line-height:1em;}
+//div.ev-date { padding:10px 16px 10px 20px; margin:0; line-height:1em; }
+
+div.user-key a:hover { color:#0088CC; }
+div.user-key:hover { cursor:pointer; }
+div.user-key.selected { background-color:#E3EFF6; }
+
+#new-user-button { font-size:1em; letter-spacing:0.1em; }
+
+.view-actions {
+    margin-bottom: 8px;
+    display: block;
+    height: 28px;
+}
+
+.view-actions ul {
+    margin: 0;
+}
+
+.view-actions li {
+    display: inline-block;
+    vertical-align: top;
+}

@@ -1,0 +1,13 @@
+<% unless current_user %>
+	<% title "Sign Up for a New Account" %>
+<% else %>
+	<% title "Make a New User" %>
+<% end %>
+
+<br/><br/>
+
+<div class="row">
+	<div class="span12">
+		<%= render 'form' %>
+	</div>
+</div>

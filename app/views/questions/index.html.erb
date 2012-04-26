@@ -1,0 +1,32 @@
+<% title "All Questions" %>
+
+<table>
+  <tr>
+    <th>Type</th>
+    <th>Question</th>
+    <th>Reference</th>
+	<th></th>
+  </tr>
+  <% for question in @questions %>
+    <tr>
+      <td><%= QuestionType::QUESTION_TYPES[question.question_type.name] %></td>
+      <td><span clss='bold'> <!-- begin question -->
+      	<% if question.editable? %>
+      	<%= link_to raw(truncate(question.text, :length => 100, :omission => (link_to "...(view)", question))), edit_question_path(question), :title => "Edit" %>
+      	<% else %>
+      	<span class='bold'><%= raw(truncate(question.text, :length => 100, :omission => (link_to "...(view)", question))) %></span>
+      	<% end %>
+      	</span><!-- end question -->
+      	<br />			<!--question-->
+      <%= question.answer %></td>						<!--answer-->
+      <td><%= question.reference %></td>
+      <td><%= link_to image_tag("edit_dg.gif"), edit_question_path(question) %></td>
+      <td><%= link_to image_tag("delete_dg.gif"), :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<!-- paginates the table -->
+<%= will_paginate @questions %>
+
+<br />

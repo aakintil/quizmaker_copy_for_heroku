@@ -1,0 +1,57 @@
+<% title "Pending Questions" %>
+
+<br/>
+
+<!-- Links to toggle question filters -->
+<div id="filterbar span8" >
+	<!-- Links to toggle question filters -->
+	<div class="btn-toolbar">
+		<div class="btn-group">
+			<a class="btn filter" href="javascript:filterBy('ALL');">All</a>
+		</div>
+		<div class="btn-group">
+			<a class="btn filter" href="javascript:filterBy('INT');">Interrogative</a>
+			<a class="btn filter" href="javascript:filterBy('FTV');">Finish The Verse</a>
+			<a class="btn filter" href="javascript:filterBy('QT');">Quote</a>
+			<a class="btn filter" href="javascript:filterBy('REF');">Reference</a>
+			<a class="btn filter" href="javascript:filterBy('MA');">Multiple Answer</a>
+		</div>
+	</div> <!-- End of btn-toolbar -->
+</div>	<!-- End of filterbar -->
+<br/>
+
+<div class="span12 questions">
+	
+	<% for question in @questions %>
+	
+		<%# if question.is_editable? %>
+			<!-- <div class="row question-box">
+				<div class="top-row">
+					<span class="btn pull-right select-button">Select</span>
+					
+					<%#= best_in_place question, :question_type_id, :type => :select, :collection => question.question_types_list %>
+					
+				</div> -->
+		<%# else %>
+			<div class="row question-box <%= QuestionCategory::CATEGORY_ABBREVIATIONS[question.question_category.name] %>">
+		<%# end %>
+				<div class="span1"><input class="select" type="checkbox"></div>
+				<div class="span1"><%= best_in_place question, :question_type_id, :type => :select, :collection => question.question_types_list %></div>
+				<div class="span8">
+					<div class="row question"><%= best_in_place question, :text %></div>
+					<div class="row answer"><%= best_in_place question, :answer %></div>
+				</div>
+				<div class="span1">
+					<%= best_in_place question, :book, :type => :select, :collection => Question::BOOK_LIST %> 
+					<%= best_in_place question, :chapter %>:<%= best_in_place question, :verse %>
+				</div>
+			</div> <!-- End of question box -->
+  <% end %>
+	
+	
+</div>
+
+<!-- The user has no questions -->
+	<!-- <p class='empty_message'>
+		Write some questions above!
+	</p> -->

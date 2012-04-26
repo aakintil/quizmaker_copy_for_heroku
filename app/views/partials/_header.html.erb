@@ -1,0 +1,46 @@
+<header>
+	<div class="container">
+		<a href=<%= current_user ? current_user.homepage : "/" %>><%= image_tag("white_logo.png", :class => "logo") %></a>
+		<!-- <h1 class="logo"><a href="#" rel="index">QuizMaster</a></h1> -->
+
+		<% if current_user %>		
+			<nav>
+				<ul>
+					<% if current_user.is_admin? %>
+					<li><a href="/users"><i class="icon-cog"></i>Admin</a></li>
+					<% end %>
+					<% if current_user.is_writer? %>
+					<li><a href="/questions/writer_index"><i class="icon-pencil"></i>Write</a></li>
+					<% end %>
+					<% if current_user.is_approver? %>
+					<li><a href="/questions/approver_index"><i class="icon-check"></i>Approve</a></li>
+					<% end %>
+					<% if current_user.is_coach? %>
+					<li><a href=<%= events_path %>><i class="icon-file"></i>Events</a></li>
+					<% end %>
+					<li><a href=<%= edit_user_path(current_user) %>><i class="icon-user"></i>Settings</a></li>
+					<li><a href="/logout">Log Out<i class="icon-arrow-right" id="log-out-icon"></i></a></li>
+				</ul>
+			</nav>
+		<% else %>
+			<nav>
+				<ul>
+					<!-- <li><a href="/">Home</a></li> -->
+					<li><a href="/login">Log in</a></li>
+					<li><a href="/about">About</a></li>
+					<li><a href="/contact">Contact</a></li>
+					<li><a href="/signup">Sign up</a></li>
+				</ul>
+			</nav>
+		<% end %>
+	</div>
+</header>
+
+
+<div id="welcome">
+	<div class="container">
+		<% if current_user %>
+		<p class="welcome pull-right">Welcome, <%= link_to current_user.name, edit_user_path(current_user) %></p>
+		<% end %>
+	</div>
+</div>

@@ -1,0 +1,38 @@
+<div class="row">
+
+	<div class="span12">
+	<h3 class="welcome">Quiz Master<sup>&#8482;</sup> helps you write questions and build quizzes for your local Bible Quiz team, your district, and the world!</h3>
+	</div>
+</div> <!-- End of row -->
+
+<br/><br/>
+<div class="row">
+	
+	<!-- Left half -->
+	<div class="span7 negoffset1">
+		<div id="log-in">
+			<%= render :partial => "partials/home-login-form" %>
+		</div> <!-- End of Log-in div -->
+	</div>
+	
+	<!-- Right half -->
+	<div class="span6" id="right-form">
+		<div id="sign-up">
+			<%= render :partial => "partials/home-signup-form" %>
+		</div><!-- End of Sign-up div -->
+	</div>
+</div>
+
+<br/><br/>
+<div class="row">
+
+	<div class="span12">
+	<h3 class="welcome"><a href="/signup">Sign up</a> for an account today to get started with building quizzes!</h3>
+	</div>
+</div> <!-- End of row -->
+
+<!-- Sets focus automatically in the login form on document load -->
+<script>$(document).ready(function(){ $("#login").focus(); })</script>
+
+<!-- Show/Hide Login/Signup -->
+<%= javascript_include_tag "placeholder" %>

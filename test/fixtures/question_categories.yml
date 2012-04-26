@@ -1,0 +1,7 @@
+one:
+  name: MyString
+  question_type_id: 1
+
+two:
+  name: MyString
+  question_type_id: 1

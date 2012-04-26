@@ -1,0 +1,24 @@
+<% title "Section" %>
+
+<p>
+  <strong>Book:</strong>
+  <%= @section.book %>
+</p>
+<p>
+  <strong>Chapter:</strong>
+  <%= @section.chapter %>
+</p>
+<p>
+  <strong>Start Verse:</strong>
+  <%= @section.start_verse %>
+</p>
+<p>
+  <strong>End Verse:</strong>
+  <%= @section.end_verse %>
+</p>
+
+<p>
+  <%= link_to image_tag("edit_dg.gif"), edit_section_path(@section) %> |
+  <%= link_to image_tag("delete_dg.gif"), @section, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", sections_path %>
+</p>

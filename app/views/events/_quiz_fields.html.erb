@@ -1,0 +1,22 @@
+<!-- quiz fields for nested form -->
+<div class="quiz">
+  <div class="field">
+    <%= f.label :interrogative, 'INT' %>
+    <%= f.select :interrogative, Quiz::INT_RANGE %>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <%= f.label :finish_the_verse, 'FTV' %>
+    <%= f.select :finish_the_verse, Quiz::FTV_RANGE %>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <%= f.label :quote, 'QT' %>
+    <%= f.select :quote, Quiz::QT_RANGE %>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <%= f.label :reference, 'REF' %>
+    <%= f.select :reference, Quiz::REF_RANGE %>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <%= f.label :multiple_answer, 'MA' %>
+    <%= f.select :multiple_answer, Quiz::MA_RANGE %>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <%= f.label :situation, 'SIT' %>
+    <%= f.select :situation, Quiz::SIT_RANGE %>
+  </div>
+</div>

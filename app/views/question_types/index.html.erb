@@ -1,0 +1,22 @@
+<% title "Question Types" %>
+
+<table>
+  <tr>
+    <th>Type</th>
+    <th>Category</th>
+	<th></th>
+	<th></th>
+  </tr>
+  <% for question_type in @question_types %>
+    <tr>
+		<td><%= link_to question_type.name, question_type %></td>
+		<td><%= question_type.question_category_id %></td>
+
+		<td><%= link_to image_tag("edit_dg.gif"), edit_question_type_path(question_type) %></td>
+		<td><%= link_to image_tag("delete_dg.gif"), question_type, :confirm => 'Are you sure?', :method => :delete%></td>
+
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Question Type", new_question_type_path %></p>

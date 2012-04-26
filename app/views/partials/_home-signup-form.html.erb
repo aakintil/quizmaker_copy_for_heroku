@@ -1,0 +1,93 @@
+<div class="row">
+	<div class="span6">
+		<h2>Sign up is quick and easy!</h2>
+	</div>
+</div>
+
+<br/>
+
+<%= form_for @user do |f| %>
+<%= f.error_messages %>
+
+<div class="row">
+	<div class="span3">
+		<%= f.text_field :first_name, :class => "span3 tall sign-up-field", :placeholder => 'First Name' %>
+		<span class="placeholder"></span>
+	</div>
+	<div class="span3">
+		<%= f.text_field :last_name, :class => "span3 tall sign-up-field", :placeholder => 'Last Name' %>
+		<span class="placeholder"></span>
+	</div>
+</div>
+
+<br/>
+
+<div class="row">
+	<div class="span3">
+		<%= f.text_field :username, :class => "span3 tall sign-up-field", :placeholder => 'Username' %>
+		<span class="placeholder"></span>
+	</div>
+	<div class="span3">
+		<%= f.text_field :email, :class => "span3 tall sign-up-field", :placeholder => 'Email ID' %>
+		<span class="placeholder"></span>
+	</div>
+</div>
+
+<br/>
+
+<div class="row">
+	<div class="span3">
+		<%= f.password_field :password, :class => "span3 tall sign-up-field", :placeholder => 'Password' %>
+		<span class="placeholder"></span>
+	</div>
+	<div class="span3">
+		<%= f.password_field :password_confirmation, :class => "span3 tall sign-up-field", :placeholder => 'Confirm Password' %>
+		<span class="placeholder"></span>
+	</div>
+</div>
+
+<br/>
+
+<div class="row">
+	<div class="row">
+		<div class="span4">
+			<p id="show-login" class="pull-right"><a href="#">Already have an account?</a></p>
+		</div>
+		
+		<div class="span2">
+			  <%= f.submit "Sign Up", :class => "btn btn-primary large span2", :id => "sign-up-button", :type => "submit", :disabled => "false" %>
+			<% end %>
+			
+				<!-- <#%= content_tag(:button, "Sign up", :class => "btn btn-primary large span2", :id => "sign-up", :type => "submit", :disabled => "false")%> -->
+		</div>
+	</div>
+</div>
+
+<br/>
+
+<!-- <div class="row">
+	<div class="span3 offset2">
+		<p id="show-login"><a href="#">Already have an account?</a></p>
+	</div>
+</div> -->
+
+<!-- Script to enable/disable Sign-up button -->
+<script type="text/javascript" charset="utf-8">
+(function() {
+    $('.sign-up-field').keyup(function() {
+
+        var empty = false;
+        $('.sign-up-field').each(function() {
+            if ($(this).val() == '') {
+                empty = true;
+            }
+        });
+
+        if (empty) {
+            $('#sign-up-button').attr('disabled', true);
+        } else {
+            $('#sign-up-button').attr('disabled', false);
+        }
+    });
+})();
+</script>

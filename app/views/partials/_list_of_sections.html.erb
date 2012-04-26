@@ -1,0 +1,8 @@
+<p>
+	<b><%= pluralize(@quiz.sections.size, 'Section') %></b><br />
+	<ul>
+		<% for section in @quiz.sections  %>
+			<li><%= link_to((section.name), section_path(section)) %></li>
+		<% end  %>
+	</ul>
+</p>

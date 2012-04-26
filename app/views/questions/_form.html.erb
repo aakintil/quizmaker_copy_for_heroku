@@ -1,0 +1,63 @@
+<%= form_for @question do |f| %>
+  <%= f.error_messages %>
+  
+  
+  <p>
+    <%= f.label :question_type_id %><br />
+    <%= f.collection_select :question_type_id, QuestionType.all, :id, :abbreviation, :prompt => 'Select...' %>
+  </p>
+  <p>
+    <%= f.label :book %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= f.label :chapter %>&nbsp;&nbsp;<%= f.label :verse %><br />
+    <%= f.select :book, Question::BOOKS.keys, :prompt => 'Select...' %>&nbsp;<%= f.text_field :chapter, :size => "1" %>:<%= f.text_field :verse, :size => '1' %>
+  </p>
+  
+  <p>
+    <%= f.label :text %><br />
+    <%= f.text_area :text, :rows => "3", :cols => '35' %>
+  </p>
+  <p>
+    <%= f.label :answer %><br />
+    <%= f.text_area :answer, :rows => '3', :cols => '35' %>
+  </p>
+  <p>
+  	<%= f.label :keyword, 'Keyword Position' %><br />
+    <%= f.radio_button :keyword, 1 %>
+    <%= f.label :keyword, '1' %>&nbsp;
+    <%= f.radio_button :keyword, 2 %>
+    <%= f.label :keyword, '2' %>&nbsp;
+    <%= f.radio_button :keyword, 3 %>
+    <%= f.label :keyword, '3' %>&nbsp;
+    <%= f.radio_button :keyword, 4 %>
+    <%= f.label :keyword, '4' %>&nbsp;
+    <%= f.radio_button :keyword, 5 %>
+    <%= f.label :keyword, '5' %>&nbsp;
+    <%= f.radio_button :keyword, 0 %>
+    <%= f.label :keyword, 'N/A' %>
+  </p>
+  
+  <% if current_user.is_approver? %>
+  <div class='approver_fields'>
+  <p>
+    <%= f.label :approval_level %><br />
+    <%= f.radio_button :approval_level, 1 %>
+    <%= f.label :approval_level, 'Church' %><br />
+    <%= f.radio_button :approval_level, 2 %>
+    <%= f.label :approval_level, 'District' %><br />
+    <%= f.radio_button :approval_level, 3 %>
+    <%= f.label :approval_level, 'District & International' %><br />
+    <%= f.radio_button :approval_level, 4 %>
+    <%= f.label :approval_level, 'International' %><br />
+    <%= f.radio_button :approval_level, 5 %>
+    <%= f.label :approval_level, 'Pass to Another Approver' %><br />
+    <%= f.radio_button :approval_level, -1 %>
+    <%= f.label :approval_level, 'Refuse Approval',  %><br />
+  </p>
+  <p>
+    <%= f.label :approval_reason, 'Notes' %><br />
+    <%= f.text_area :approval_reason, :rows => '2', :cols => '35' %>
+  </p>
+  </div>
+  <% end %>
+  
+  <p class='form_buttons'><%= f.submit 'Submit', :class=>'myButton2'%></p>
+<% end %>

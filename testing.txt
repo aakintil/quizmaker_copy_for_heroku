@@ -1,0 +1,400 @@
+CR	1 Peter 1:1	"According to 1 Peter 1, strangers where?"	In the world.	 +
+CVR	1 Peter 1:1	"According to 1 Peter 1:1, >> God's what?"	God's elect.	 +
+CVR	1 Peter 1:1	"According to 1 Peter 1:1, >> strangers where?"	strangers in the world.	 +
+FTV	1 Peter 1:1	"Peter, >> an apostle of Jesus ..."	" Christ, To God's elect, strangers in the world, scattered throughout Pontus, Galatia, Cappadocia, Asia and Bithynia, who have been chosen according to the foreknowledge of God the Father, through the sanctifying work of the Spirit, for obedience to Jesus Christ and sprinkling by his blood: Grace and peace be yours in abundance."	 +
+INT	1 Peter 1:1	an apostle >>of whom?	Jesus Christ	 +
+INT	1 Peter 1:1	"To God's elect, >> strangers where?"	in the world	 +
+INT	1 Peter 1:1	Whose elect?	God's.	 +
+MA	1 Peter 1:1	Scattered >> throughout where?	"Pontus, Galatia, Cappadocia, Asia and Bithynia,"	 +
+Q2V	1 Peter 1:1	Quote 1 Peter 1:1 & 2 >>	"Peter, an apostle of Jesus Christ, To God's elect, strangers in the world, scattered throughout Pontus, Galatia, Cappadocia, Asia and Bithynia, who have been chosen according to the foreknowledge of God the Father, through the sanctifying work of the Spirit, for obedience to Jesus Christ and sprinkling by his blood: Grace and peace be yours in abundance."	 +
+CR	1 Peter 1:2	"According to 1 Peter 1, according to what?"	The foreknowledge of God the Father.	 +
+CR	1 Peter 1:2	"According to 1 Peter 1, what sprinkling? >>"	sprinkling by his blood.	 +
+CRMA	1 Peter 1:2	"According to 1 Peter 1, what be yours? >>"	Grace and peace be yours in abundance.	 +
+CVRMA	1 Peter 1:2	"According to 1 Peter 1:2, >> chosen how?"	"chosen according to the foreknowledge of God the Father, through the sanctifying work of the Spirit, for obedience to Jesus Christ and sprinkling by his blood."	 +
+INT	1 Peter 1:2	Chosen according >> to the foreknowledge of whom?	God the Father	 +
+INT	1 Peter 1:2	sprinkling by >> what?	his blood.	 +
+INT	1 Peter 1:2	the foreknowledge >> of whom?	God the Father.	 +
+INT	1 Peter 1:2	The sanctifying >> work of whom?	The Spirit.	 +
+CR	1 Peter 1:3	"According to 1 Peter 1, the resurrection of whom?"	The resurrection of Jesus Christ from the dead.	 +
+CVR	1 Peter 1:3	"According to 1 Peter 1:3, >> what hope?"	A living hope.	 +
+FTN	1 Peter 1:3	In his great >> mercy he...	"has given us new birth into a living hope through the resurrection of Jesus Christ from the dead, and into an inheritance that can never perish, spoil, or fade -- kept in heaven for you,"	 +
+FTV	1 Peter 1:3	Praise >> be to the God ...	"and Father of our Lord Jesus Christ! In his great mercy he has given us new birth into a living hope through the resurrection of Jesus Christ from the dead,"	 +
+INT	1 Peter 1:3	In his great >> mercy he has given us what?	new birth	 +
+INT	1 Peter 1:3	New birth >> into what?	A living hope.	 +
+INT	1 Peter 1:3	Praise be >> to whom?	the God and Father of our Lord Jesus Christ.	 +
+MA	1 Peter 1:3	In his great >> mercy he has given us new birth into what?	"a living hope through the resurrection of Jesus Christ from the dead, and into an inheritance that can never perish, spoil, or fade."	 +
+MA	1 Peter 1:3	New birth into what?	"a living hope through the resurrection of Jesus Christ from the dead, and into an inheritance that can never perish, spoil, or fade."	 +
+QT	1 Peter 1:3	Quote 1 Peter 1:3 >>	"Praise be to the God and Father of our Lord Jesus Christ! In his great mercy he has given us new birth into a living hope through the resurrection of Jesus Christ from the dead,"	 +
+CR	1 Peter 1:4	"According to 1 Peter 1, kept >> how?"	kept in heaven for you.	 +
+CRMA	1 Peter 1:4	"According to 1 Peter 1, what inheritance? >>"	"an inheritance that can never perish, spoil, or fade."	 +
+INT	1 Peter 1:4	kept in >> heaven for whom?	kept in heaven for you.	 +
+INT	1 Peter 1:4	"What can never perish, >> spoil, or fade?"	"An inheritance that can never perish, spoil, or fade."	 +
+MA	1 Peter 1:4	An inheritance >> that can never what?	"Perish, spoil, or fade."	 +
+CVR	1 Peter 1:5	According to 1 Peter 1:5 >> what salvation?	The salvation that is ready to be revealed in the last time.	 +
+CVR	1 Peter 1:5	"According to 1 Peter 1:5, >> God's what?"	God's power.	 +
+CVR	1 Peter 1:5	"According to 1 Peter 1:5, >> what time?"	the last time.	 +
+INT	1 Peter 1:5	Shielded >> by God's power how?	through faith	 +
+INT	1 Peter 1:5	Shielded >> by what?	Godês power.	 +
+INT	1 Peter 1:5	The salvation that >> is ready to be revealed when?	in the last time	 +
+INT	1 Peter 1:5	What is ready to be >> revealed in the last time?	the salvation that is ready to be revealed in the last time.	 +
+CR	1 Peter 1:6	"According to 1 Peter 1, a little >> what?"	a little while.	 +
+CR	1 Peter 1:6	"According to 1 Peter 1, all kinds >> of what?"	Trials.	 +
+CR	1 Peter 1:6	"According to 1 Peter 1, to suffer >> what?"	to suffer grief in all kinds of trials.	 +
+FTV	1 Peter 1:6	In this you greatly rejoice...	though now for a little while you may have had to suffer grief in all kinds of trials. 	 +
+INT	1 Peter 1:6	In this you >> what?	In this you greatly rejoice.	 +
+INT	1 Peter 1:6	In this you greatly rejoice why?	though now for a little while you may have had to suffer grief in all kinds of trials. 	 +
+INT	1 Peter 1:6	Suffer grief >> in what?	all kinds of trials	 +
+QT	1 Peter 1:6	Quote 1 Peter 1:6 >>	"In this you greatly rejoice, though now for a little while you may have had to suffer grief in all kinds of trials."	 +
+CR	1 Peter 1:7	"According to 1 Peter 1, who is revealed?"	Jesus Christ is revealed. 	 +
+CVR	1 Peter 1:7	According to 1 Peter 1:7 >> even though what?	refined by fire	 +
+CVR	1 Peter 1:7	"According to 1 Peter 1:7, >> even though what?"	refined by fire	 +
+CVR	1 Peter 1:7	"According to 1 Peter 1:7, >> even though what?"	refined by fire	 +
+CVR	1 Peter 1:7	"According to 1 Peter 1:7, >> who is revealed?"	Jesus Christ.	 +
+FTV	1 Peter 1:7	These have come so that...	"your faith-- of greater worth than gold, which perishes even though refined by fire-- may be proved genuine and may result in praise, glory and honor when Jesus Christ is revealed. "	 +
+INT	1 Peter 1:7	"And may result >> in praise, glory and honor when?"	When Jesus Christ is revealed.	 +
+INT	1 Peter 1:7	Greater worth >> than what?	gold	 +
+INT	1 Peter 1:7	proved >> what?	proved genuine.	 +
+INT	1 Peter 1:7	Refined >> by what?	fire	 +
+INT	1 Peter 1:7	These have come why?	"So that your faith-- of greater worth than gold, which perishes even though refined by fire-- may be proved genuine and may result in praise, glory and honor when Jesus Christ is revealed. "	 +
+INT	1 Peter 1:7	What may be proved >> genuine?	"Your faith-- of greater worth than gold, which perishes even though refined by fire."	 +
+INT	1 Peter 1:7	What perishes >> even though refined by fire?	gold	 +
+MA	1 Peter 1:7	May result >> in what?	"praise, glory and honor"	 +
+QT	1 Peter 1:7	Quote 1 Peter 1:7 >>	"These have come so that your faith-- of greater worth than gold, which perishes even though refined by fire-- may be proved genuine and may result in praise, glory and honor when Jesus Christ is revealed. "	 +
+CVR	1 Peter 1:8	"According to 1 Peter 1:8, even though what?"	Even though you do not see him now.	 +
+FTV	1 Peter 1:8	Though you have not seen ...	"him, you love him; and even though you do not see him now, you believe in him and are filled with an inexpressible and glorious joy,"	 +
+INT	1 Peter 1:8	An inexpressible >> and glorious what?	joy	 +
+INT	1 Peter 1:8	Filled >> with what?	An inexpressible and glorious joy.	 +
+INT	1 Peter 1:8	Though you have >> not what?	Though you have not seen him.	 +
+INT	1 Peter 1:8	you believe in him >> and are what?	"filled with an inexpressible and glorious joy,"	 +
+QT	1 Peter 1:8	Quote 1 Peter 1:8 >>	"Though you have not seen him, you love him; and even though you do not see him now, you believe in him and are filled with an inexpressible and glorious joy,"	 +
+CR	1 Peter 1:9	"According to 1 Peter 1, the salvation of what?"	The salvation of your souls.	 +
+CVR	1 Peter 1:9	"According to 1 Peter 1:9, >> what salvation?"	The salvation of your souls.	 +
+INT	1 Peter 1:9	The goal >> of what?	your faith	 +
+INT	1 Peter 1:9	the salvation of >> what?	the salvation of your souls.	 +
+CR	1 Peter 1:10	"According to 1 Peter 1, the greatest >> what?"	the greatest care.	 +
+CVR	1 Peter 1:10	"According to 1 Peter 1: 10, what prophets?"	The prophets who spoke of the grace that was to come to you.	 +
+FTV	1 Peter 1:10	"Concerning >> this salvation, the prophets ..."	"who spoke of the grace that was to come to you, searched intently and with the greatest care, trying to find out the time and circumstances to which the Spirit of Christ in them was pointing when he predicted the sufferings of Christ and the glories that would follow."	 +
+INT	1 Peter 1:10	Concerning >> what?	Concerning this salvation.	 +
+INT	1 Peter 1:10	Searched intently and with what?	The greatest care.	 +
+INT	1 Peter 1:10	Who searched intently and with the greatest care?	The prophets who spoke of the grace that was to come to you.	 +
+INT	1 Peter 1:10	who spoke of the grace >> that was to come to you?	the prophets.	 +
+MA	1 Peter 1:10	searched >> how?	"intently and with the greatest care, "	 +
+Q2V	1 Peter 1:10	Quote 1 Peter 1:10 & 11 >>	"Concerning this salvation, the prophets, who spoke of the grace that was to come to you, searched intently and with the greatest care, trying to find out the time and circumstances to which the Spirit of Christ in them was pointing when he predicted the sufferings of Christ and the glories that would follow."	 +
+CR	1 Peter 1:11	"According to 1 Peter 1, what Spirit? >>"	the Spirit of Christ in them.	 +
+INT	1 Peter 1:11	the glories >> that would what?	the glories that would follow.	 +
+INT	1 Peter 1:11	What glories? >>	The glories that would follow.	 +
+INT	1 Peter 1:11	Who predicted >> the sufferings of Christ?	He (the Spirit of Christ in them).	 +
+MA	1 Peter 1:11	He predicted what?	The sufferings of Christ and the glories that would follow.	 +
+MA	1 Peter 1:11	Trying >> to find out what?	The time and circumstances to which the Spirit of Christ in them was pointing when he predicted the sufferings of Christ and the glories that would follow.	 +
+CR	1 Peter 1:12	"According to 1 Peter 1, even angels >> what?"	Even angels long to look into these things.	 +
+CVR	1 Peter 1:12	"According to 1 Peter 1:12, >> what was revealed?"	"It was revealed to them that they were not serving themselves but you, when they spoke of the things that have now been told you by those who have preached the gospel to you by the Holy Spirit sent from heaven."	 +
+CVR	1 Peter 1:12	"According to 1 Peter 1:12, >> spoke of what?"	the things that have now been told you by those who have preached the gospel to you by the Holy Spirit sent from heaven.	 +
+CVR	1 Peter 1:12	"According to 1 Peter 1:12, >> what Spirit?"	the Holy Spirit sent from heaven.	 +
+CVRMA	1 Peter 1:12	"According to 1 Peter 1:12 , what things?"	The things that have now been told you;  these things.	 +
+INT	1 Peter 1:12	Even angels long to what?	Look into these things.	 +
+INT	1 Peter 1:12	They spoke >> of what?	The things that have now been told you by those who have preached the gospel to you by the Holy Spirit sent from heaven.	 +
+INT	1 Peter 1:12	What was revealed to >> them?	It was revealed to them that they were not serving themselves but you.	 +
+INT	1 Peter 1:12	Who long to >> look into these things?	Even angels.	 +
+CVR	1 Peter 1:13	"According to 1 Peter 1:13, >> be what?"	Be self-controlled.	 +
+CVR	1 Peter 1:13	"According to 1 Peter 1:13, >> who is revealed?"	when Jesus Christ is revealed.	 +
+FTV	1 Peter 1:13	"Therefore, prepare your minds for ..."	action; be self-controlled; set your hope fully on the grace to be given you when Jesus Christ is revealed.	 +
+INT	1 Peter 1:13	Prepare >> your minds for what?	action	 +
+INT	1 Peter 1:13	Set your >> hope fully on what?	The grace to be given you when Jesus Christ is revealed.	 +
+QT	1 Peter 1:13	Quote 1 Peter 1:13 >>	"Therefore, prepare your minds for action; be self-controlled; set your hope fully on the grace to be given you when Jesus Christ is revealed."	 +
+CR	1 Peter 1:14	"According to 1 Peter 1, what children?"	Obedient children.	 +
+CR	1 Peter 1:14	"According to 1 Peter 1, what evil >> desires?"	the evil desires you had when you lived in ignorance.	 +
+CVR	1 Peter 1:14	"According to 1 Peter 1:14, do not what?"	Do not conform to the evil desires you had when you lived in ignorance.	 +
+FTV	1 Peter 1:14	"As obedient children, do not ..."	conform to the evil desires you had when you lived in ignorance. 	 +
+INT	1 Peter 1:14	"As obedient >> children, do not conform to what?"	the evil desires you had when  you lived in ignorance	 +
+INT	1 Peter 1:14	As obedient >> what?	children	 +
+INT	1 Peter 1:14	Do not conform >> to what?	The evil desires you had when you lived in ignorance.	 +
+INT	1 Peter 1:14	the evil >> desires you had when you lived how?	in ignorance.	 +
+QT	1 Peter 1:14	Quote 1 Peter 1:14 >>	"As obedient children, do not conform to the evil desires you had when you lived in ignorance. "	 +
+CR	1 Peter 1:15	"According to 1 Peter 1, who is holy >> ?"	He who called you is holy.	 +
+CVR	1 Peter 1:15	"According to 1 Peter 1:15, >> be what?"	Be holy in all you do.	 +
+FT2V	1 Peter 1:15	But just >> as he who ...	" called you is holy, so be holy in all you do; for it is written: ""Be holy, because I am holy."""	 +
+FTV	1 Peter 1:15	But just as he who...	"called you is holy, so be holy in all you do; "	 +
+INT	1 Peter 1:15	be holy in >> what?	be holy in all you do.	 +
+INT	1 Peter 1:15	"But just >> as he who called you is holy, so what?"	be holy in all you do 	 +
+QT	1 Peter 1:15	Quote 1 Peter 1:15 >>	"But just as he who called you is holy, so be holy in all you do; "	 +
+Q2V	1 Peter 1:15	Quote 1 Peter 1:15 & 16 >>	"But just as he who called you is holy, so be holy in all you do; for it is written: ""Be holy, because I am holy."""	 +
+CR	1 Peter 1:16	"According to 1 Peter 1, what is written?"	"For it is written: ""Be holy, because I am holy."""	 +
+CVR	1 Peter 1:16	"According to 1 Peter 1:16, >> be what?"	holy	 +
+FT	1 Peter 1:16	"""Be holy, because I am ..."	"holy."""	 +
+FTV	1 Peter 1:16	"for it is written: >> ""Be ..."	"holy, because I am holy."""	 +
+QT	1 Peter 1:16	Quote 1 Peter 1:16 >>	"for it is written: ""Be holy, because I am holy."""	 +
+CR	1 Peter 1:17	"According to 1 Peter 1, reverent what?"	fear	 +
+CVR	1 Peter 1:17	"According to 1 Peter 1: 17, what work?"	Each man's work.	 +
+CVR	1 Peter 1:17	"According to 1 Peter 1:17, >> what Father?"	a Father who judges each man's work impartially.	 +
+FTV	1 Peter 1:17	Since you >> call on a ...	"Father who judges each man's work impartially, live your lives as strangers here in reverent fear."	 +
+INT	1 Peter 1:17	a Father who >> judges each man's work how?	impartially.	 +
+INT	1 Peter 1:17	in reverent >> what?	fear.	 +
+INT	1 Peter 1:17	Live your >> lives as strangers here how?	In reverent fear.	 +
+INT	1 Peter 1:17	Who judges each man's work impartially?	A Father.	 +
+INT	1 Peter 1:17	You call on a Father who judges each man's work how?	Impartially.	 +
+QT	1 Peter 1:17	Quote 1 Peter 1:17 >>	"Since you call on a Father who judges each man's work impartially, live your lives as strangers here in reverent fear."	 +
+CRMA	1 Peter 1:18	"According to 1 Peter 1, such >> as what?"	perishable things such as silver or gold.	 +
+CVR	1 Peter 1:18	"According to 1 Peter 1: 18, what things?"	Perishable things such as silver or gold.	 +
+CVRMA	1 Peter 1:18	"According to 1 Peter 1:18, >> perishable what?"	perishable things such as silver or gold.	 +
+FT2V	1 Peter 1:18	For you know >> that it ...	" was not with perishable things such as silver or gold that you were redeemed from the empty way of life handed down to you from your forefathers, but with the precious blood of Christ, a lamb without blemish or defect."	 +
+INT	1 Peter 1:18	handed >> down to you from whom?	your forefathers.	 +
+INT	1 Peter 1:18	perishable things >> such as silver or what?	gold.	 +
+INT	1 Peter 1:18	Redeemed >> from what?	the empty way of life handed down to you from your forefathers	 +
+INT	1 Peter 1:18	The empty way of life handed down to you from whom?	Your forefathers.	 +
+INT	1 Peter 1:18	What empty way >> of life?	the empty way of life handed down to you from your forefathers.	 +
+MA	1 Peter 1:18	Perishable things >> such as what?	silver or gold	 +
+MA	1 Peter 1:18	you were redeemed >> from the empty way of life handed down to you from your forefathers how?	"not with perishable things such as silver or gold; but with the precious blood of Christ, a lamb without blemish or defect."	 +
+Q2V	1 Peter 1:18	Quote 1 Peter 1:18 & 19 >>	"For you know that it was not with perishable things such as silver or gold that you were redeemed from the empty way of life handed down to you from your forefathers, but with the precious blood of Christ, a lamb without blemish or defect."	 +
+CRMA	1 Peter 1:19	"According to 1 Peter 1, without >> what?"	without blemish or defect.	 +
+CVR	1 Peter 1:19	According to 1 Peter 1:19 >> what blood?	The precious blood of Christ.	 +
+INT	1 Peter 1:19	the precious >> blood of whom?	the precious blood of Christ	 +
+INT	1 Peter 1:19	What lamb? >>	A lamb without blemish or defect.	 +
+MA	1 Peter 1:19	A lamb >> without what?	Blemish or defect.	 +
+CR	1 Peter 1:20	"According to 1 Peter 1, these last >> what?"	these last times.	 +
+CVR	1 Peter 1:20	According to 1 Peter 1:20 >> chosen when?	before the creation of the world	 +
+CVR	1 Peter 1:20	"According to 1 Peter 1:20, >> revealed when?"	revealed in these last times.	 +
+FTV	1 Peter 1:20	He was chosen before the ...	"creation of the world, but was revealed in these last times for your sake. "	 +
+INT	1 Peter 1:20	He was chosen >> before what?	the creation of the world.	 +
+INT	1 Peter 1:20	revealed in these >> last times why?	for your sake.	 +
+QT	1 Peter 1:20	Quote 1 Peter 1:20 >>	"He was chosen before the creation of the world, but was revealed in these last times for your sake."	 +
+CVR	1 Peter 1:21	"According to 1 Peter 1:21, >> you believe in whom?"	you believe in God	 +
+FTV	1 Peter 1:21	Through him you believe in...	"God, who raised him from the dead and glorified him, and so your faith and hope are in God. "	 +
+INT	1 Peter 1:21	Through him you >> believe in whom?	"God, who raised him from the dead and glorified him."	 +
+INT	1 Peter 1:21	Who raised him >> from the dead and glorified him?	God	 +
+INT	1 Peter 1:21	Your faith and >> hope are in whom?	God	 +
+MA	1 Peter 1:21	What are in God?	Your faith and hope.	 +
+MA	1 Peter 1:21	"You believe in God, >> who what?"	"you believe in God, who raised him from the dead and glorified him."	 +
+QT	1 Peter 1:21	Quote 1 Peter 1:21 >>	"Through him you believe in God, who raised him from the dead and glorified him, and so your faith and hope are in God."	 +
+CR	1 Peter 1:22	"According to 1 Peter 1, now that you >> have what?"	Now that you have purified yourselves by obeying the truth so that you have sincere love for your brothers.	 +
+CR	1 Peter 1:22	"According to 1 Peter 1, sincere >> what?"	sincere love for your brothers.	 +
+CVRMA	1 Peter 1:22	"According to 1 Peter 1:22, you have what?"	You have purified yourselves by obeying the truth; you have a sincere love for your brothers.	 +
+FTV	1 Peter 1:22	Now that you have purified >> ...	"yourselves by obeying the truth so that you have sincere love for your brothers, love one another deeply, from the heart."	 +
+INT	1 Peter 1:22	By obeying >> what?	The truth.	 +
+INT	1 Peter 1:22	Love one another deeply from what?	The heart.	 +
+INT	1 Peter 1:22	Sincere love >> for whom?	your brothers	 +
+INT	1 Peter 1:22	You have purified yourselves by what?	Obeying the truth.	 +
+QT	1 Peter 1:22	Quote 1 Peter 1:22 >>	"Now that you have purified yourselves by obeying the truth so that you have sincere love for your brothers, love one another deeply, from the heart."	 +
+CR	1 Peter 1:23	"According to 1 Peter 1, the living and enduring what?"	The living and enduring word of God.	 +
+CVR	1 Peter 1:23	According to 1 Peter 1:23 >> what word?	The living and enduring word of God.	 +
+CVR	1 Peter 1:23	"According to 1 Peter 1:23, >> perishable what?"	perishable seed.	 +
+CVR	1 Peter 1:23	"According to 1 Peter 1:23, you have what?"	You have been born again	 +
+FTV	1 Peter 1:23	For you have been >> born ...	"again, not of perishable seed, but of imperishable, through the living and enduring word of God."	 +
+INT	1 Peter 1:23	"Born again, >> not of perishable seed, but of what?"	imperishable   	 +
+INT	1 Peter 1:23	The living and enduring >> what?	word of God	 +
+MA	1 Peter 1:23	What seed?	"Not of perishable seed, but of imperishable."	 +
+QT	1 Peter 1:23	Quote 1 Peter 1:23 >>	"For you have been born again, not of perishable seed, but of imperishable, through the living and enduring word of God."	 +
+CRMA	1 Peter 1:24	"According to 1 Peter 1, like >> what?"	like grass; like the flowers of the field.	 +
+CVRMA	1 Peter 1:24	"According to 1 Peter 1:24, >> all what?"	All men; all their glory.	 +
+FTV	1 Peter 1:24	"For, ""All men are like ..."	"grass, and all their glory is like the flowers of the field; the grass withers and the flowers fall, "	 +
+INT	1 Peter 1:24	All men are >> like what?	All men are like grass.	 +
+INT	1 Peter 1:24	The flowers >> of what?	the field	 +
+INT	1 Peter 1:24	the grass >> withers and the flowers what?	fall.	 +
+INT	1 Peter 1:24	Who are like grass >>?	all men	 +
+QT	1 Peter 1:24	Quote 1 Peter 1:24 >>	"For, ""All men are like grass, and all their glory is like the flowers of the field; the grass withers and the flowers fall,"	 +
+CR	1 Peter 1:25	"According to 1 Peter 1, the word of whom?"	the Lord	 +
+CR	1 Peter 1:25	"According to 1 Peter 1, what stands? >>"	the word of the Lord.	 +
+CR	1 Peter 1:25	"According to 1 Peter 1, what was preached? >>"	"the word of the Lord stands forever."" And this is the word that was preached to you."	 +
+CVRMA	1 Peter 1:25	According to 1 Peter 1:25 >> what word?	The word of the Lord; the word that was preached to you.	 +
+INT	1 Peter 1:25	But the word >> of the Lord what?	stands forever	 +
+INT	1 Peter 1:25	What stands forever >> ?	The word of the Lord.	 +
+INT	1 Peter 1:25	What was preached to >> you?	the word of the Lord 	 +
+CR	1 Peter 2:1	"According to 1 Peter 2, what slander? >>"	slander of every kind.	 +
+FTV	1 Peter 2:1	"Therefore, rid >> yourselves of all..."	"malice and all deceit, hypocrisy, envy, and slander of every kind."	 +
+INT	1 Peter 2:1	Slander of >> what?	every kind	 +
+MA	1 Peter 2:1	Rid >> yourselves of what?	"All malice and all deceit, hypocrisy, envy, and slander of every kind."	 +
+QT	1 Peter 2:1	Quote 1 Peter 2:1 >>	"Therefore, rid yourselves of all malice and all deceit, hypocrisy, envy, and slander of every kind."	 +
+CR	1 Peter 2:2	"According to 1 Peter 2, pure what?"	spiritual milk	 +
+CR	1 Peter 2:2	"According to 1 Peter 2, what milk? >>"	pure spiritual milk.	 +
+CVR	1 Peter 2:2	"According to 1 Peter 2:2, >> spiritual what?"	milk.	 +
+FT2V	1 Peter 2:2	"Like newborn >> babies, crave pure ..."	" spiritual milk, so that by it you may grow up in your salvation, now that you have tasted that the Lord is good."	 +
+FTV	1 Peter 2:2	"Like newborn babies, crave pure...."	"spiritual milk, so that by it you may grow up in your salvation, "	 +
+INT	1 Peter 2:2	Crave >> what?	Pure spiritual milk.	 +
+INT	1 Peter 2:2	crave >> pure spiritual milk why?	so that by it you may grow up in your salvation.	 +
+INT	1 Peter 2:2	Grow up >> in what?	your salvation	 +
+INT	1 Peter 2:2	"Like newborn >> babies, crave what?"	pure spiritual milk	 +
+INT	1 Peter 2:2	Pure spiritual >> what?	Milk.	 +
+QT	1 Peter 2:2	Quote 1 Peter 2:2 >>	"Like newborn babies, crave pure spiritual milk, so that by it you may grow up in your salvation,"	 +
+Q2V	1 Peter 2:2	Quote 1 Peter 2:2 & 3 >>	"Like newborn babies, crave pure spiritual milk, so that by it you may grow up in your salvation, now that you have tasted that the Lord is good."	 +
+CR	1 Peter 2:3	"According to 1 Peter 2, now that you have what?"	tasted that the Lord is good	 +
+CR	1 Peter 2:3	"According to 1 Peter 2, tasted what?"	that the Lord is good	 +
+CR	1 Peter 2:3	"According to 1 Peter 2, the Lord is >> what?"	Good.	 +
+CVR	1 Peter 2:3	"According to 1 Peter 2:3, >> you have what?"	you have tasted that the Lord is good.	 +
+INT	1 Peter 2:3	You have tasted >> what?	that the Lord is good	 +
+CR	1 Peter 2:4	"According to 1 Peter 2, the living >> what?"	the living Stone.	 +
+CVR	1 Peter 2:4	According to 1 Peter 2:4 >> what Stone?	The living Stone rejected by men but chosen by God and precious to him.	 +
+FT2V	1 Peter 2:4	"  As you come to him, ..."	"the living Stone--rejected by men but chosen by God and precious to him--   you also, like living stones, are being built into a spiritual house to be a holy priesthood, offering spiritual sacrifices acceptable to God through Jesus Christ. "	 +
+INT	1 Peter 2:4	As you come >> to whom?	"As you come to him, the living Stone -- rejected by men but chosen by God and precious to him."	 +
+INT	1 Peter 2:4	chosen by >> God and what?	precious to him.	 +
+INT	1 Peter 2:4	Chosen by >> whom?	God	 +
+INT	1 Peter 2:4	Rejected by >> whom?	men	 +
+MA	1 Peter 2:4	Rejected by >> men but what?	chosen by God and precious to him	 +
+MA	1 Peter 2:4	The living Stone >> - rejected by men but what?	chosen by God and precious to him	 +
+Q2V	1 Peter 2:4	Quote 1 Peter 2:4 & 5 >>	"As you come to him, the living Stone -- rejected by men but chosen by God and precious to him --  you also, like living stones, are being built into a spiritual house to be a holy priesthood, offering spiritual sacrifices acceptable to God through Jesus Christ."	 +
+CR	1 Peter 2:5	"According to 1 Peter 2, offering >> what?"	offering spiritual sacrifices acceptable to God through Jesus Christ.	 +
+CVR	1 Peter 2:5	"According to 1 Peter 2:5, >> what priesthood?"	a holy priesthood.	 +
+INT	1 Peter 2:5	"a holy priesthood, >> offering what?"	"a holy priesthood, offering spiritual sacrifices acceptable to God through Jesus Christ."	 +
+INT	1 Peter 2:5	Acceptable >> to God through whom?	Jesus Christ	 +
+INT	1 Peter 2:5	Built into >> a spiritual house to be what?	a holy priesthood	 +
+INT	1 Peter 2:5	Like living >> what?	stones	 +
+INT	1 Peter 2:5	Offering spiritual >> sacrifices acceptable to God through whom?	Jesus Christ	 +
+INT	1 Peter 2:5	Spiritual sacrifices >> acceptable to whom?	God	 +
+INT	1 Peter 2:5	Who are being built >> into a spiritual house?	you also.	 +
+CVR	1 Peter 2:6	"According to 1 Peter 2:6, >> a chosen what?"	a chosen and precious cornerstone.	 +
+CVR	1 Peter 2:6	"According to 1 Peter 2:6, >> what stone?"	"a stone in Zion, a chosen and precious cornerstone."	 +
+FT	1 Peter 2:6	"""See, I >> lay a stone?"	"in Zion, a chosen and precious cornerstone, and the one who trusts in him will never be put to shame."""	 +
+FTV	1 Peter 2:6	For in Scripture >> it says: ...	"""See, I lay a stone in Zion, a chosen and precious cornerstone, and the one who trusts in him will never be put to shame."""	 +
+INT	1 Peter 2:6	I lay a stone where?	In Zion.	 +
+INT	1 Peter 2:6	In Scripture it says what?	"In Scripture it says: ""See, I lay a stone in Zion, a chosen and precious cornerstone, and the one who trusts in him will never be put to shame."" "	 +
+INT	1 Peter 2:6	Who will never be >> put to shame?	the one who trusts in him	 +
+MA	1 Peter 2:6	What cornerstone >>?	a chosen and precious cornerstone	 +
+QT	1 Peter 2:6	Quote 1 Peter 2:6 >>	"For in Scripture it says: ""See, I lay a stone in Zion, a chosen and precious cornerstone, and the one who trusts in him will never be put to shame."""	 +
+CVRMA	1 Peter 2:7	"According to 1 Peter 2:7, >> what stone?"	this stone; the stone the builders rejected.	 +
+FT2V	1 Peter 2:7	"  Now to you who believe, ..."	"this stone is precious. But to those who do not believe,  ""The stone the builders rejected has become the capstone, ""  and,  ""A stone that causes men to stumble and a rock that makes them fall."" They stumble because they disobey the message--which is also what they were destined for. "	 +
+FTN	1 Peter 2:7	But to those >> who do...	"not believe, ""The stone the builders rejected has become the capstone,"" and, ""A stone that causes men to stumble and a rock that makes them fall."" They stumble because they disobey the message -- which is also what they were destined for."	 +
+FTN	1 Peter 2:7	"""The stone the >> builders rejected..."	"has become the capstone,"" and, ""A stone that causes men to stumble and a rock that makes them fall."" They stumble because they disobey the message -- which is also what they were destined for."	 +
+INT	1 Peter 2:7	"Now to you >> who believe, what?"	this stone is precious 	 +
+INT	1 Peter 2:7	The stone the >> builders rejected has become what?	the capstone.	 +
+INT	1 Peter 2:7	this stone >> is what?	this stone is precious.	 +
+INT	1 Peter 2:7	What has become the capstone? >>	The stone the builders rejected.	 +
+QT	1 Peter 2:7	Quote 1 Peter 2:7 >>	"Now to you who believe, this stone is precious. But to those who do not believe, ñThe stone the builders rejected has become the capstone,î"	 +
+Q2V	1 Peter 2:7	Quote 1 Peter 2:7 & 8 >>	"Now to you who believe, this stone is precious. But to those who do not believe, ""The stone the builders rejected has become the capstone,"" and, ""A stone that causes men to stumble and a rock that makes them fall."" They stumble because they disobey the message -- which is also what they were destined for."	 +
+CVR	1 Peter 2:8	"According to 1 Peter 2:8, what stone?"	The stone that causes men to stumble.	 +
+INT	1 Peter 2:8	A rock >> that makes them what?	fall	 +
+INT	1 Peter 2:8	A stone that >> causes men to what?	Stumble.	 +
+INT	1 Peter 2:8	They disobey >> what?	The message.	 +
+INT	1 Peter 2:8	They stumble why?	Because they disobey the message.	 +
+INT	1 Peter 2:8	What causes >> men to stumble?	a stone	 +
+CVR	1 Peter 2:9	"According to 1 Peter 2:9, >> a chosen what?"	a chosen people.	 +
+CVRMA	1 Peter 2:9	"According to 1 Peter 2:9, >> what people?"	a chosen people; a people belonging to God.	 +
+CVRMA	1 Peter 2:9	"According to 1 Peter 2:9, you are what?"	"You are a chosen people, a royal priesthood, a holy nation, a people belonging to God."	 +
+FTV	1 Peter 2:9	But you are a chosen ...	"people, a royal priesthood, a holy nation, a people belonging to God, that you may declare the praises of him who called you out of darkness into his wonderful light. "	 +
+INT	1 Peter 2:9	A people belonging >> to whom?	God	 +
+INT	1 Peter 2:9	A royal >> what?	Priesthood.	 +
+INT	1 Peter 2:9	His wonderful >> what?	light	 +
+INT	1 Peter 2:9	The praises >> of whom?	him who called you out of darkness into his wonderful light	 +
+MA	1 Peter 2:9	You may declare >> the praises of him who called you where?	out of the darkness and into his wonderful light	 +
+QT	1 Peter 2:9	Quote 1 Peter 2:9 >>	"But you are a chosen people, a royal priesthood, a holy nation, a people belonging to God, that you may declare the praises of him who called you out of darkness into his wonderful light."	 +
+CVR	1 Peter 2:10	According to 1 Peter 2:10 >> you are what?	The people of God.	 +
+CVR	1 Peter 2:10	"According to 1 Peter 2:10, >> you have what?"	you have received mercy.	 +
+CVRMA	1 Peter 2:10	According to 1 Peter 2:10 >> but now you what?	"are the people of God, have received mercy  "	 +
+FTV	1 Peter 2:10	Once >> you were not a...	"people, but now you are the people of God; once you had not received mercy, but now you have received mercy."	 +
+INT	1 Peter 2:10	"Once you >> had not received mercy, but now you what?"	have received mercy	 +
+INT	1 Peter 2:10	"Once you >> were not a people, but now you are what?"	the people of God	 +
+MA	1 Peter 2:10	Once you >> what?	"were not a people, had not received mercy"	 +
+QT	1 Peter 2:10	Quote 1 Peter 2:10 >>	"Once you were not a people, but now you are the people of God; once you had not received mercy, but now you have received mercy."	 +
+CR	1 Peter 2:11	"According to 1 Peter 2, aliens and strangers where?"	in the world	 +
+CR	1 Peter 2:11	"According to 1 Peter 2, I urge you >> what?"	"I urge you, as aliens and strangers in the world, to abstain from sinful desires, which war against your soul."	 +
+CR	1 Peter 2:11	"According to 1 Peter 2, sinful >> what?"	sinful desires.	 +
+FTV	1 Peter 2:11	"Dear friends, I >> urge you,..."	"as aliens and strangers in the world, to abstain from sinful desires, which war against your soul."	 +
+INT	1 Peter 2:11	"Abstain >> from sinful desires, which what?"	war against your soul	 +
+INT	1 Peter 2:11	Abstain >> from what?	sinful desires	 +
+INT	1 Peter 2:11	as aliens >> and strangers where?	in the world.	 +
+INT	1 Peter 2:11	What war >> against your soul?	"Sinful desires, which war against your soul."	 +
+QT	1 Peter 2:11	Quote 1 Peter 2:11 >>	"Dear friends, I urge you, as aliens and strangers in the world, to abstain from sinful desires, which war against your soul."	 +
+CR	1 Peter 2:12	"According to 1 Peter 2, what deeds? >>"	your good deeds.	 +
+CR	1 Peter 2:12	"According to 1 Peter 2, your good >> what?"	your good deeds.	 +
+CRMA	1 Peter 2:12	"According to 1 Peter 2, they may >> what?"	See your good deeds and glorify God on the day he visits us.	 +
+CVR	1 Peter 2:12	According to 1 Peter 2:12 >> live how?	such good lives among the pagans 	 +
+FTV	1 Peter 2:12	Live such good lives among....	"the pagans that, though they accuse you of doing wrong, they may see your good deeds and glorify God on the day he visits us. "	 +
+INT	1 Peter 2:12	And glorify God when?	On the day he visits us.	 +
+INT	1 Peter 2:12	Live such >> good lives among whom?	the pagans	 +
+INT	1 Peter 2:12	They accuse >> you of what?	Doing wrong.	 +
+INT	1 Peter 2:12	they may see >>what?	Your good deeds.	 +
+INT	1 Peter 2:12	Though they >> accuse you of what?	doing wrong	 +
+INT	1 Peter 2:12	Who accuse >> you of doing wrong?	they (the pagans)	 +
+INT	1 Peter 2:12	Who may see your good deeds and glorify God on the day he visits us?	They. (the pagans)	 +
+MA	1 Peter 2:12	"Though they >> accuse you of doing wrong, they may what?"	see your good deeds and glorify God on the day he visits us 	 +
+QT	1 Peter 2:12	Quote 1 Peter 2:12 >>	"Live such good lives among the pagans that, though they accuse you of doing wrong, they may see your good deeds and glorify God on the day he visits us."	 +
+CRMA	1 Peter 2:13	"According to 1 Peter 2, what authority? >>"	every authority instituted among men; the supreme authority.	 +
+FT2V	1 Peter 2:13	  Submit yourselves for the Lord's....	"sake to every authority instituted among men: whether to the king, as the supreme authority,   or to governors, who are sent by him to punish those who do wrong and to commend those who do right. "	 +
+INT	1 Peter 2:13	Every authority >> instituted where?	Among men.	 +
+INT	1 Peter 2:13	Submit yourselves for >> the Lord's sake to what?	every authority instituted among men	 +
+INT	1 Peter 2:13	The supreme >> authority whom?	the king	 +
+INT	1 Peter 2:13	What supreme >> authority?	"the king, as the supreme authority."	 +
+MA	1 Peter 2:13	Whether >> to whom?	"the king, or to governors"	 +
+QT	1 Peter 2:13	Quote 1 Peter 2:13&14 >>	"Submit yourselves for the Lord's sake to every authority instituted among men: whether to the king, as the supreme authority, or to governors, who are sent by him to punish those who do wrong and to commend those who do right."	 +
+CVRMA	1 Peter 2:14	"According to 1 Peter 2:14, >> those who do what?"	those who do wrong; those who do right.	 +
+INT	1 Peter 2:14	To punish >> whom?	Those who do wrong.	 +
+INT	1 Peter 2:14	Who commend >> those who do right?	governors	 +
+MA	1 Peter 2:14	"Governors, >> who are sent by him to what?"	punish those who do wrong and to commend those who do right	 +
+MA	1 Peter 2:14	sent by >> him to what?	to punish those who do wrong and to commend those who do right.	 +
+CR	1 Peter 2:15	"According to 1 Peter 2, what is God's will >> ?"	It is God's will that by doing good you should silence the ignorant talk of foolish men.	 +
+CVR	1 Peter 2:15	"According to 1 Peter 2:15, >> you should what?"	by doing good you should silence the ignorant talk of foolish men.	 +
+FTV	1 Peter 2:15	For it is God's >> will ...	that by doing good you should silence the ignorant talk of foolish men.	 +
+INT	1 Peter 2:15	by doing >> good you should what?	by doing good you should silence the ignorant talk of foolish men.	 +
+INT	1 Peter 2:15	Silence >> the ignorant talk of foolish men how?	by doing good	 +
+INT	1 Peter 2:15	The ignorant >> talk of whom?	foolish men	 +
+INT	1 Peter 2:15	You should silence what?	The ignorant talk of foolish men.	 +
+QT	1 Peter 2:15	Quote 1 Peter 2:15 >>	For it is God's will that by doing good you should silence the ignorant talk of foolish men.	 +
+CVR	1 Peter 2:16	"According to 1 Peter 2:16, do not what?"	Do not use your freedom as a cover-up for evil.	 +
+CVRMA	1 Peter 2:16	"According to 1 Peter 2:16, >> live how?"	"as free men, as servants of God"	 +
+FTV	1 Peter 2:16	" Live as free men, but....."	do not use your freedom as a cover-up for evil; live as servants of God. 	 +
+INT	1 Peter 2:16	A cover-up >> for what?	Evil.	 +
+INT	1 Peter 2:16	Do not use your freedom as what?	A cover-up for evil.	 +
+INT	1 Peter 2:16	live as >> servants of whom?	live as servants of God.	 +
+MA	1 Peter 2:16	Live as >> what?	Live as free men; live as servants of God.	 +
+QT	1 Peter 2:16	Quote 1 Peter 2:16 >>	"Live as free men, but do not use your freedom as a cover-up for evil; live as servants of God."	 +
+CR	1 Peter 2:17	"According to 1 Peter 2, honor whom?"	The king.	 +
+CR	1 Peter 2:17	"According to 1 Peter 2, love >> whom?"	The brotherhood of believers.	 +
+FTV	1 Peter 2:17	Show >> proper respect to everyone: ...	"Love the brotherhood of believers, fear God, honor the king."	 +
+INT	1 Peter 2:17	Show proper >> respect to whom?	Everyone.	 +
+INT	1 Peter 2:17	The brotherhood >> of what?	Believers.	 +
+MA	1 Peter 2:17	Show proper >> respect to everyone:  how?	"Love the brotherhood of believers, fear God, honor the king"	 +
+QT	1 Peter 2:17	Quote 1 Peter 2:17 >>	"Show proper respect to everyone: Love the brotherhood of believers, fear God, honor the king."	 +
+CRMA	1 Peter 2:18	"According to 1 Peter 2, those who are >> what?"	those who are good and considerate; those who are harsh.	 +
+CVR	1 Peter 2:18	"According to 1 Peter 2:18, >> submit yourselves how?"	to your masters with all respect	 +
+INT	1 Peter 2:18	"Slaves, submit >> yourselves to your masters how?"	With all respect.	 +
+MA	1 Peter 2:18	not only to >> those who are what?	good and considerate.	 +
+CR	1 Peter 2:19	"According to 1 Peter 2, what suffering? >>"	unjust suffering.	 +
+CVR	1 Peter 2:19	"According to 1 Peter 2:19, >> what is commendable?"	It is commendable if a man bears up under the pain of unjust suffering because he is conscious of God.	 +
+FTV	1 Peter 2:19	For it is commendable >> if...	a man bears up under the pain of unjust suffering because he is conscious of God.	 +
+INT	1 Peter 2:19	If a man bears up under what?	The pain of unjust suffering.	 +
+INT	1 Peter 2:19	It is commendable >> if a man what?	bears up under the pain of unjust suffering	 +
+INT	1 Peter 2:19	The pain >> of what?	Unjust suffering.	 +
+INT	1 Peter 2:19	What pain ?	The pain of unjust suffering.	 +
+QT	1 Peter 2:19	Quote 1 Peter 2:19 >>	For it is commendable if a man bears up under the pain of unjust suffering because he is conscious of God.	 +
+CVR	1 Peter 2:20	"According to 1 Peter 2:20, >> what is commendable?"	"If you suffer for doing good and you endure it, this is commendable before God."	 +
+FT	1 Peter 2:20	But if you suffer for...	"doing good and you endure it, this is commendable before God. "	 +
+FTN	1 Peter 2:20	But if you >> suffer for...	"doing good and you endure it, this is commendable before God. To this you were called, because Christ suffered for you, leaving you an example, that you should follow in his steps."	 +
+FTV	1 Peter 2:20	But how >> is it to...	"your credit if you receive a beating for doing wrong and endure it? But if you suffer for doing good and you endure it, this is commendable before God."	 +
+INT	1 Peter 2:20	A beating >> for what?	Doing wrong.	 +
+INT	1 Peter 2:20	But how >> is it to your credit if you what?	receive a beating for doing wrong and endure it	 +
+INT	1 Peter 2:20	if you suffer for >> what?	if you suffer for doing good.	 +
+MA	1 Peter 2:20	What is commendable >> before God?	"if you suffer for doing good and you endure it, this is commendable before God."	 +
+QT	1 Peter 2:20	Quote 1 Peter 2:20 >>	"But how is it to your credit if you receive a beating for doing wrong and endure it? But if you suffer for doing good and you endure it, this is commendable before God."	 +
+CVR	1 Peter 2:21	"According to 1 Peter 2:21, >> Christ what?"	"Christ suffered for you, "	 +
+CVR	1 Peter 2:21	"According to 1 Peter 2:21, >> you should what?"	you should follow in his steps.	 +
+FTV	1 Peter 2:21	"To this you were called,..."	"because Christ suffered for you, leaving you an example, that you should follow in his steps. "	 +
+INT	1 Peter 2:21	"Christ suffered for >> you, leaving you an example, that you should what?"	follow in his steps	 +
+INT	1 Peter 2:21	Follow in >> what?	his steps	 +
+INT	1 Peter 2:21	Leaving you >> what?	an example	 +
+INT	1 Peter 2:21	Who suffered for >> you?	Christ suffered for you.	 +
+QT	1 Peter 2:21	Quote 1 Peter 2:21 >>	"To this you were called, because Christ suffered for you, leaving you an example, that you should follow in his steps."	 +
+FTV	1 Peter 2:22	"""He committed no sin, and..."	"no deceit was found in his mouth."""	 +
+INT	1 Peter 2:22	He committed >> no what?	He committed no sin.	 +
+INT	1 Peter 2:22	No deceit >> was found where?	in his mouth	 +
+QT	1 Peter 2:22	Quote 1 Peter 2:22 >>	"""He committed no sin, and no deceit was found in his mouth."""	 +
+FTV	1 Peter 2:23	When they hurled >> their insults ...	"at him, he did not retaliate; when he suffered, he made no threats. Instead, he entrusted himself to him who judges justly."	 +
+INT	1 Peter 2:23	He entrusted >> himself to whom?	him who judges justly	 +
+INT	1 Peter 2:23	He made no >> threats when?	When he suffered.	 +
+INT	1 Peter 2:23	"Instead, he >> what?"	"Instead, he entrusted himself to him who judges justly."	 +
+INT	1 Peter 2:23	They hurled >> their insults where?	At him.	 +
+INT	1 Peter 2:23	"When he suffered, >> he what?"	made no threats	 +
+INT	1 Peter 2:23	"When they hurled >> their insults at him, he did not what?"	retaliate	 +
+QT	1 Peter 2:23	Quote 1 Peter 2:23 >>	"When they hurled their insults at him, he did not retaliate; when he suffered, he made no threats. Instead, he entrusted himself to him who judges justly."	 +
+CR	1 Peter 2:24	"According to 1 Peter 2, he himself what?"	bore our sins in his body on the tree	 +
+FTV	1 Peter 2:24	He himself bore our sins ...	"in his body on the tree, so that we might die to sins and live for righteousness; by his wounds you have been healed."	 +
+INT	1 Peter 2:24	By his wounds you have been what?	Healed.	 +
+INT	1 Peter 2:24	He himself bore >> our sins in his body where?	On the tree.	 +
+INT	1 Peter 2:24	You have been healed how?	By his wounds you have been healed. 	 +
+MA	1 Peter 2:24	"He himself bore >> our sins in his body on the tree, so that we might what?"	die to sins and live for righteousness	 +
+QT	1 Peter 2:24	Quote 1 Peter 2:24 >>	"He himself bore our sins in his body on the tree, so that we might die to sins and live for righteousness; by his wounds you have been healed."	 +
+CR	1 Peter 2:25	"According to 1 Peter 2, what Shepherd? >>"	the Shepherd and Overseer of your souls.	 +
+CVR	1 Peter 2:25	"According to 1 Peter 2:25, >> now you have what?"	now you have returned to the Shepherd and Overseer of your souls.	 +
+FTV	1 Peter 2:25	For you were like sheep ...	"going astray, but now you have returned to the Shepherd and Overseer of your souls."	 +
+INT	1 Peter 2:25	The Shepherd >> and Overseer of what?	your souls	 +
+INT	1 Peter 2:25	You have returned >> to whom?	The Shepherd and Overseer of your souls.	 +
+INT	1 Peter 2:25	You were >> like sheep going where?	Sheep going astray.	 +
+QT	1 Peter 2:25	Quote 1 Peter 2:25 >>	"For you were like sheep going astray, but now you have returned to the Shepherd and Overseer of your souls."	 +
+CR	1 Peter 3:1	"According to 1 Peter 3, be submissive >> to whom?"	Your husbands.	 +
+CVR	1 Peter 3:1	"According to 1 Peter 3:1, >> In the same way what?"	be submissive to your husbands	 +

@@ -1,0 +1,20 @@
+<%= form_for @section do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :book %><br />
+    <%= f.text_field :book %>
+  </p>
+  <p>
+    <%= f.label :chapter %><br />
+    <%= f.text_field :chapter %>
+  </p>
+  <p>
+    <%= f.label :start_verse %><br />
+    <%= f.text_field :start_verse %>
+  </p>
+  <p>
+    <%= f.label :end_verse %><br />
+    <%= f.text_field :end_verse %>
+  </p>
+  <p><%= f.submit %></p>
+<% end %>

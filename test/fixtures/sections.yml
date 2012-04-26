@@ -1,0 +1,11 @@
+one:
+  book: MyString
+  chapter: 1
+  start_verse: 1
+  end_verse: 1
+
+two:
+  book: MyString
+  chapter: 1
+  start_verse: 1
+  end_verse: 1

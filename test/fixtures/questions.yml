@@ -1,0 +1,29 @@
+one:
+  user_id: 1
+  question_type_id: 1
+  section_id: 1
+  book: MyString
+  chapter: 1
+  verse: MyString
+  text: MyString
+  answer: MyString
+  first_w: 1
+  created_on: 2011-09-29 01:58:26
+  approved_on: 2011-09-29 01:58:26
+  approval_level: 1
+  approval_reason: MyString
+
+two:
+  user_id: 1
+  question_type_id: 1
+  section_id: 1
+  book: MyString
+  chapter: 1
+  verse: MyString
+  text: MyString
+  answer: MyString
+  first_w: 1
+  created_on: 2011-09-29 01:58:26
+  approved_on: 2011-09-29 01:58:26
+  approval_level: 1
+  approval_reason: MyString

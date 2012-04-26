@@ -1,0 +1,74 @@
+<div class="row">
+	<div class="span4 offset2">
+		<h2>Log in</h2>
+	</div>
+</div>
+
+<br/>
+
+<%= form_tag( sessions_path, :class => "login") do %>
+	
+	<div class="row">
+		<div class="span3 offset2">
+			<%= text_field_tag :login, params[:login], :class => "span3 tall", :placeholder => 'Username' %>
+			<span class="placeholder"></span>
+		</div>
+	</div>
+	
+	<br/>
+	
+	<div class="row">
+		<div class="span3 offset2">
+			<%= password_field_tag :password, '', :placeholder => 'Password', :class => "span3 tall" %>
+			<span class="placeholder"></span>
+		</div>
+	</div>
+	
+	<br/>
+	
+	<div class="row">
+		<div class="row">
+		<div class="span3 offset2">
+			<%= content_tag(:button, "Sign in", :class => "btn btn-primary btn-large span3", :id => "sign-in", :type => "submit", :disabled => "false")%>
+		</div>
+		</div>
+	</div>
+	
+	<br/>
+	
+	<div class="row">
+		<div class="span3 offset2">
+			<p id="show-signup"><a href="#">Don't have an account?</a></p>
+		</div>
+	</div>
+
+	<br/>
+
+	<div class="row">
+		<div class="span3 offset2">
+			<p id="show-reset"><a href="#">Forgot Password?</a></p>
+		</div>
+	</div>
+	
+<% end %>
+
+<!-- Script to enable/disable Sign-in button -->
+<script type="text/javascript" charset="utf-8">
+$(function() {
+    $('form.login').find('input').keyup(function() {
+
+        var empty = false;
+        $('form.login').find('input').each(function() {
+            if ($(this).val() == '') {
+                empty = true;
+            }
+        });
+
+        if (empty) {
+            $('button#sign-in').attr('disabled', true);
+        } else {
+            $('button#sign-in').attr('disabled', false);
+        }
+    });
+});
+</script>

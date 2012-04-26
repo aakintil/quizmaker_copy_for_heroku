@@ -1,0 +1,64 @@
+@import "color_palette";
+@import "font_palette";
+@import "mixins";
+
+div#quizzes {
+  font-size:1.5em;
+  margin-bottom:30px;
+  margin-top:0px;
+}
+div.quiz-box {
+  @include rounded-corners;
+  @include box-shadow;
+  margin:10px 0;
+  padding:0;
+}
+div.quiz-box:hover {
+  position:relative;
+  top:-1px;
+  left:-1px;
+  @include raised-box-shadow;
+//  @include blue-glow-border;
+}
+
+div.quizzes-header {
+  @include square-corners;
+  margin:10px 0;
+  padding:0;
+  margin-top:0px;
+}
+
+div.q-number, div.q-filename { padding:10px 14px 10px 20px; margin:0; line-height:1em;}
+
+/*dragging and dropping code*/
+
+#drag_drop
+{
+cursor: url(https://mail.google.com/mail/images/2/openhand.cur), move;
+}
+
+
+.handle
+{ 
+width:20px; 
+height: 30px; 
+opacity:0.2;
+position:relative;
+left:-20px;
+top:5px; 
+}
+
+.handle:hover
+{
+cursor: url(https://mail.google.com/mail/images/2/closedhand.cur), move;
+opacity:1;
+}
+
+#non_sortable
+{
+border: 3px dashed #999;
+padding:10px;
+margin-top:60px; 
+opacity:0.75;
+}
+

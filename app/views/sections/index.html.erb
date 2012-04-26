@@ -1,0 +1,27 @@
+<% title "Sections" %>
+
+<table>
+  <tr>
+	<th>id</th>
+    <th>Book</th>
+    <th>Chapter</th>
+    <th>Start Verse</th>
+    <th>End Verse</th>
+	<th></th>
+	<th></th>
+  </tr>
+  <% for section in @sections %>
+   <tr>
+	<td> <%= link_to section.id, section%>
+      <td><%= section.book %></td>
+      <td><%= section.chapter %></td>
+      <td><%= section.start_verse %></td>
+      <td><%= section.end_verse %></td>
+
+      <td><%= link_to image_tag("edit_dg.gif"), edit_section_path(section) %></td>
+      <td><%= link_to image_tag("delete_dg.gif"), section, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Section", new_section_path %></p>

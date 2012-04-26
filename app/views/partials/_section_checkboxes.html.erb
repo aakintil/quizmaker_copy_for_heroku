@@ -1,0 +1,10 @@
+<div class='section_checkboxes'>
+	<strong>Included Sections:</strong>
+	<br />
+	  <% for section in @sections  %>
+	  <div class='section_checkbox'>
+	   <%= check_box_tag "quiz[section_ids][]", section.id, @quiz.sections.include?(section) %>
+		 <%= "#{section.book} #{section.chapter}:#{section.start_verse}-#{section.end_verse}" %>
+		 </div>
+	<% end  %>
+</div>

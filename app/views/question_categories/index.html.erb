@@ -1,0 +1,17 @@
+<% title "Question Categories" %>
+
+<table>
+  <tr>
+    <th>Name</th>
+	<th></th>
+  </tr>
+  <% for question_category in @question_categories %>
+    <tr>
+      <td><%= link_to question_category.name, question_category %></td>
+      <td><%= link_to image_tag("edit_dg.gif"), edit_question_category_path(question_category) %></td>
+      <td><%= link_to image_tag("delete_dg.gif"), question_category, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Question Category", new_question_category_path %></p>
