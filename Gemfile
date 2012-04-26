@@ -21,6 +21,7 @@ gem 'best_in_place', '1.0.2'
 gem 'acts_as_list'
 gem 'gon'
 gem 'prawn'
+gem 'populator3', '0.2.7'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -51,7 +52,7 @@ group :development do
 	gem 'hirb', '0.4.5'
 	gem 'annotate', '2.4.0'
 	# for rake db:populate
-	gem 'populator3', '0.2.7'
+  # gem 'populator3', '0.2.7'
 	gem 'faker', '0.9.5'
 end
 
