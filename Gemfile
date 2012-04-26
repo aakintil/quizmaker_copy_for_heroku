@@ -68,3 +68,8 @@ group :test do
 	gem 'nokogiri', '1.5.0'
 	gem 'simplecov', '0.4.2'
 end
+
+group :production do
+  gem 'activerecord-postgresql-adapter'
+  gem 'pg'
+end
