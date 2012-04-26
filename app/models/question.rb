@@ -35,47 +35,47 @@ class Question < ActiveRecord::Base
   # -----------------------------
   
   # all questions ordered by most recently created
-  scope :all, order("created_on desc")
-  
-  # questions written by a given writer
-  scope :by_writer, lambda { |writer_id| where("written_by = ?", writer_id) }
-  
-  # questions not written by a given writer
-  scope :not_written_by, lambda { |writer_id| where("written_by != ?", writer_id) }
-  
-  # all questions that can still be edited by their writers
-  scope :writer_editable, where("created_on >= ?", DateTime.now - EDITABLE_PERIOD)
-  
-  # all questions submitted for approval that can no longer be edited by their writers
-  #scope :approver_editable, where("created_on < ?", DateTime.now - EDITABLE_PERIOD)
-  #scope :approver_editable, lambda { |user| where("created_on < ? and written_by != ?", DateTime.now - EDITABLE_PERIOD, user.id) }
-
-  # all questions created at least 24 hours ago
-  scope :awaiting_approval, where("created_on < ? AND approval_level IS NULL", DateTime.now - EDITABLE_PERIOD)
-  
-  scope :approved, where("approval_level >= ? AND approval_level <= ?", CHURCH, INTERNATIONAL)
-  
-  scope :pending, where("approval_level <= ? OR approval_level >= ?", CHURCH, INTERNATIONAL)
-  
-  # interrogative questions
-  scope :int, where("question_category_id = ?", QuestionCategory.find_by_name("Interrogative").try(:id))
-  
-  # finish the verse questions
-  scope :ftv, where("question_category_id = ?", QuestionCategory.find_by_name("Finish The Verse").try(:id))
-  
-  # quote questions
-  scope :qt, where("question_category_id = ?", QuestionCategory.find_by_name("Quote").try(:id))
-  
-  # reference questions
-  scope :ref, where("question_category_id = ?", QuestionCategory.find_by_name("Reference").try(:id))
-  
-  # multiple answer questions
-  scope :ma, where("question_category_id = ?", QuestionCategory.find_by_name("Multiple Answer").try(:id))
-  
-  # situation questions
-  scope :sit, where("question_category_id = ?", QuestionCategory.find_by_name("Situation").try(:id))
-
-  
+  # scope :all, order("created_on desc")
+  # 
+  # # questions written by a given writer
+  # scope :by_writer, lambda { |writer_id| where("written_by = ?", writer_id) }
+  # 
+  # # questions not written by a given writer
+  # scope :not_written_by, lambda { |writer_id| where("written_by != ?", writer_id) }
+  # 
+  # # all questions that can still be edited by their writers
+  # scope :writer_editable, where("created_on >= ?", DateTime.now - EDITABLE_PERIOD)
+  # 
+  # # all questions submitted for approval that can no longer be edited by their writers
+  # #scope :approver_editable, where("created_on < ?", DateTime.now - EDITABLE_PERIOD)
+  # #scope :approver_editable, lambda { |user| where("created_on < ? and written_by != ?", DateTime.now - EDITABLE_PERIOD, user.id) }
+  # 
+  # # all questions created at least 24 hours ago
+  # scope :awaiting_approval, where("created_on < ? AND approval_level IS NULL", DateTime.now - EDITABLE_PERIOD)
+  # 
+  # scope :approved, where("approval_level >= ? AND approval_level <= ?", CHURCH, INTERNATIONAL)
+  # 
+  # scope :pending, where("approval_level <= ? OR approval_level >= ?", CHURCH, INTERNATIONAL)
+  # 
+  # # interrogative questions
+  # scope :int, where("question_category_id = ?", QuestionCategory.find_by_name("Interrogative").try(:id))
+  # 
+  # # finish the verse questions
+  # scope :ftv, where("question_category_id = ?", QuestionCategory.find_by_name("Finish The Verse").try(:id))
+  # 
+  # # quote questions
+  # scope :qt, where("question_category_id = ?", QuestionCategory.find_by_name("Quote").try(:id))
+  # 
+  # # reference questions
+  # scope :ref, where("question_category_id = ?", QuestionCategory.find_by_name("Reference").try(:id))
+  # 
+  # # multiple answer questions
+  # scope :ma, where("question_category_id = ?", QuestionCategory.find_by_name("Multiple Answer").try(:id))
+  # 
+  # # situation questions
+  # scope :sit, where("question_category_id = ?", QuestionCategory.find_by_name("Situation").try(:id))
+  # 
+  # 
   
   # Validations
   # -----------------------------
