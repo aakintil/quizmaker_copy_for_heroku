@@ -1,5 +1,28 @@
-@import "font_palette";
+//@import "font_palette";
 //@import "mixins";
+
+
+
+$ultra-light: 100;
+$light: 300;
+$regular: 400;
+$medium: 500;
+$bold: 700;
+
+
+// Regular stuff
+$body-bg-color: #F9F9F9;
+$normal-text-color: #3C3F3F;
+
+
+// Specials
+
+
+// Alerts
+$light-yellow: #fcf8e3;
+$light-red: #F00;
+
+
 
 input.tall, textarea.tall {
     height:25px;
