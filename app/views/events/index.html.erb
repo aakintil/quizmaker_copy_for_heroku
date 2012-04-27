@@ -21,7 +21,7 @@
 				
 				<div class="span4 ev-title"><%= event.title %></div>
 				<div class="span2 ev-quizzes"><%= event.num_quizzes %></div>
-				<div class="span3 ev-by"><%#= event.user.name %></div>
+				<div class="span3 ev-by"><%= event.user.name unless event.user.mil? %></div>
 				<div class="span2 ev-date"><%= event.created_at.strftime("%D") %></div>
 			
 			</a>
