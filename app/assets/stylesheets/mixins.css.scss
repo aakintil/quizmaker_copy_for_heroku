@@ -1,0 +1,39 @@
+@import "color_palette";
+@import "font_palette";
+
+@mixin rounded-corners ($bg-color: #FFF,$border-color: #EAEAEA, $radius: 4px) {
+  background-color: $bg-color;
+  border: 1px solid $border-color;
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin square-corners ($bg-color: #FFF,$border-color: #EAEAEA) {
+  background-color: $bg-color;
+  border: 1px solid $border-color;
+}
+
+@mixin box-shadow ($left-offset: 0px, $top-offset: 1px, $blur-radius: 2px, $color: rgba(0,0,0,0.2)) {
+/* Shadow: left-offset top-offset blur-radius spread-distance color; */
+  -webkit-box-shadow:$left-offset $top-offset $blur-radius $color;
+  -moz-box-shadow:$left-offset $top-offset $blur-radius $color;
+  -ms-box-shadow:$left-offset $top-offset $blur-radius $color;
+  box-shadow:$left-offset $top-offset $blur-radius $color;
+}
+
+@mixin raised-box-shadow ($left-offset: 2px, $top-offset: 3px, $blur-radius: 2px, $spread-distance:1px, $color: rgba(0,0,0,0.1)) {
+/* Shadow: left-offset top-offset blur-radius spread-distance color; */
+  -webkit-box-shadow:$left-offset $top-offset $blur-radius $spread-distance $color;
+  -moz-box-shadow:$left-offset $top-offset $blur-radius $spread-distance $color;
+  -ms-box-shadow:$left-offset $top-offset $blur-radius $spread-distance $color;
+  box-shadow:$left-offset $top-offset $blur-radius $spread-distance $color;
+}
+
+@mixin depressed-box-shadow ($left-offset: 2px, $top-offset: 3px, $blur-radius: 2px, $spread-distance:1px, $color: rgba(0,0,0,0.1)) {
+/* Shadow: left-offset top-offset blur-radius spread-distance color; */
+  -webkit-box-shadow:inset $left-offset $top-offset $blur-radius $spread-distance $color;
+  -moz-box-shadow:inset $left-offset $top-offset $blur-radius $spread-distance $color;
+  -ms-box-shadow:inset $left-offset $top-offset $blur-radius $spread-distance $color;
+  box-shadow:inset $left-offset $top-offset $blur-radius $spread-distance $color;
+}
