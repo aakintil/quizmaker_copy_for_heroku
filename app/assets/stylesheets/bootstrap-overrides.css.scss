@@ -1,0 +1,132 @@
+@import "font_palette";
+//@import "mixins";
+
+input.tall, textarea.tall {
+    height:25px;
+    font-size:1.2em;
+}
+label.signup-label {
+  font-size:1.2em;
+  font-weight:$light;
+}
+
+h1 {
+  font-weight:$light;
+  font-size:2.5em;
+}
+h2 {
+  font-weight:$regular;
+  font-size:2em;
+}
+span.title {
+  border-bottom:1px solid black;
+}
+
+div.error_messages, div#error_explanation {
+  padding: 8px 35px 8px 14px;
+  margin-top:15px;
+  margin-bottom: 18px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+
+  color: #b94a48;
+}
+div.error_messages h2, div#error_explanation h2 {
+  color:#B94A48;
+  font-weight:500;
+  font-size:1.5em;
+}
+
+span.placeholder {
+  color:#999999;
+  font-size:1.2em;
+  font-weight:400;
+  
+	position:absolute;
+	top:0;
+	left:0;
+
+	padding-top:8px;
+	padding-left:5px;
+}
+
+p#show-login {
+  margin-bottom:0px;
+  padding-top:5px;
+}
+
+.negoffset1 {
+  margin-left: -100px;
+}
+.negoffset2 {
+  margin-left: -180px;
+}
+.negoffset3 {
+  margin-left: -260px;
+}
+.negoffset4 {
+  margin-left: -340px;
+}
+.negoffset5 {
+  margin-left: -420px;
+}
+
+label.new-user-label {
+  color:#333;
+  font-weight:500;
+  font-size:1.2em;
+  
+  padding-top:7px;
+  
+}
+.font-regular {
+  font-weight:$regular;
+}
+.font-bold {
+  font-weight:$bold;
+}
+.box {
+  @include square-corners;
+  font-size:1.5em;
+  padding:10px;
+}
+@mixin rounded-corners ($bg-color: #FFF,$border-color: #EAEAEA, $radius: 4px) {
+  background-color: $bg-color;
+  border: 1px solid $border-color;
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin square-corners ($bg-color: #FFF,$border-color: #EAEAEA) {
+  background-color: $bg-color;
+  border: 1px solid $border-color;
+}
+
+@mixin box-shadow ($left-offset: 0px, $top-offset: 1px, $blur-radius: 2px, $color: rgba(0,0,0,0.2)) {
+/* Shadow: left-offset top-offset blur-radius spread-distance color; */
+  -webkit-box-shadow:$left-offset $top-offset $blur-radius $color;
+  -moz-box-shadow:$left-offset $top-offset $blur-radius $color;
+  -ms-box-shadow:$left-offset $top-offset $blur-radius $color;
+  box-shadow:$left-offset $top-offset $blur-radius $color;
+}
+
+@mixin raised-box-shadow ($left-offset: 2px, $top-offset: 3px, $blur-radius: 2px, $spread-distance:1px, $color: rgba(0,0,0,0.1)) {
+/* Shadow: left-offset top-offset blur-radius spread-distance color; */
+  -webkit-box-shadow:$left-offset $top-offset $blur-radius $spread-distance $color;
+  -moz-box-shadow:$left-offset $top-offset $blur-radius $spread-distance $color;
+  -ms-box-shadow:$left-offset $top-offset $blur-radius $spread-distance $color;
+  box-shadow:$left-offset $top-offset $blur-radius $spread-distance $color;
+}
+
+@mixin depressed-box-shadow ($left-offset: 2px, $top-offset: 3px, $blur-radius: 2px, $spread-distance:1px, $color: rgba(0,0,0,0.1)) {
+/* Shadow: left-offset top-offset blur-radius spread-distance color; */
+  -webkit-box-shadow:inset $left-offset $top-offset $blur-radius $spread-distance $color;
+  -moz-box-shadow:inset $left-offset $top-offset $blur-radius $spread-distance $color;
+  -ms-box-shadow:inset $left-offset $top-offset $blur-radius $spread-distance $color;
+  box-shadow:inset $left-offset $top-offset $blur-radius $spread-distance $color;
+}
